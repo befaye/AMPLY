@@ -22,7 +22,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 0.5em 0; /* reduced from 1em */
+  padding: 0.5em 0; 
 }
 
 header .container {
@@ -38,7 +38,7 @@ header .container {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 16px; /* increased from 10px */
+  gap: 16px; 
 }
 
 .logo-img {
@@ -131,7 +131,7 @@ header .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
   color: #fff;
   text-align: center;
   padding: 2em;
@@ -409,6 +409,13 @@ Artist Cards
   padding-top: 3rem;
 }
 
+body.artists-page {
+  background: url('backgrounds/artists-tab.png') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #a28fff;
+}
+
 .section-title {
   text-align: center;
   margin: 0 auto 2rem;
@@ -428,13 +435,21 @@ Artist Cards
   border-radius: 8px;
   padding: 15px;
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #fff;
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    0 4px 6px rgba(0, 0, 0, 0.08),
+    inset 0 0 8px rgba(255, 255, 255, 0.3);
 }
+
 
 .artist-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.12),
+    0 6px 6px rgba(0, 0, 0, 0.1),
+    inset 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
 .profile-pic {
