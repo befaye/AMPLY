@@ -402,7 +402,20 @@ Responsive Design
   }
 }
 
-/* Artist Grid */
+/*==============================
+Artist Cards
+==============================*/
+.main-content {
+  padding-top: 3rem;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0 auto 2rem;
+  position: relative;
+  padding-top: 1rem;
+}
+
 .artist-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -486,3 +499,4 @@ Responsive Design
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
+
