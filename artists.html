@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="container header-flex">
       <div class="logo-nav-group">
@@ -35,6 +34,7 @@
     </div>
   </header>
 
+  <!-- Main content area -->
   <main class="main-content">
     <h2 class="section-title">ARTISTS</h2>
     <div class="artist-grid" id="artist-container">
@@ -42,8 +42,11 @@
     </div>
   </main>
 
+  <!-- JavaScript for dynamic content loading -->
   <script>
+    // Wait until DOM is fully loaded before executing script
     document.addEventListener('DOMContentLoaded', function() {
+      // Possible paths to try for the JSON data file
       const possiblePaths = [
         'all-artists.json',
         './all-artists.json',
@@ -53,39 +56,47 @@
       
       let attempts = 0;
       
+      // Function to attempt fetching JSON data from different paths
       function tryFetch(pathIndex) {
+        // If tried all paths without success, show error
         if (pathIndex >= possiblePaths.length) {
           showError();
           return;
         }
         
+        // Attempt to fetch JSON data
         fetch(possiblePaths[pathIndex])
           .then(response => {
             if (!response.ok) throw new Error('Not found');
             return response.json();
           })
           .then(artists => {
+            // If successful, display the artists
             displayArtists(artists);
           })
           .catch(error => {
+            // If failed, try next path
             console.log(`Tried ${possiblePaths[pathIndex]}, failed. Trying next path...`);
             tryFetch(pathIndex + 1);
           });
       }
       
+      // Function to display artist cards in the grid
       function displayArtists(artists) {
         const container = document.getElementById('artist-container');
-        container.innerHTML = '';
+        container.innerHTML = ''; // Clear loading message
         
+        // Create a card for each artist
         artists.forEach(artist => {
           const card = document.createElement('div');
           card.className = 'artist-card';
           
-          // Handle potential missing image
+          // Handle potential missing image with fallback
           const imageHTML = artist.image 
             ? `<img src="${artist.image}" alt="${artist.name}" onerror="this.src='assets/default-artist.jpg'">`
             : '<div class="missing-image">No Image</div>';
           
+          // HTML template for each artist card
           card.innerHTML = `
             <div class="profile-pic">
               ${imageHTML}
@@ -100,6 +111,7 @@
         });
       }
       
+      // Function to display error message if loading fails
       function showError() {
         const container = document.getElementById('artist-container');
         container.innerHTML = `
@@ -115,10 +127,11 @@
         `;
       }
       
-      // Start trying to fetch
+      // Start trying to fetch data (begin with first path)
       tryFetch(0);
     });
 
+    // Function to view individual artist details (not fully implemented)
     function viewArtist(id) {
       window.location.href = `artist-detail.html?id=${id}`;
     }
