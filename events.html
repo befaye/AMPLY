@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | AMPLY</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="events-page">
+
+  <header>
+    <div class="container header-flex">
+      <div class="logo-nav-group">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="assets/white-transp-logo.png" alt="AMPLY Logo" class="logo-img" />
+            <h1 class="logo">AMPLY</h1>
+          </a>
+        </div>
+        <nav class="main-nav">
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="events.html" class="nav-link">Events</a>
+        </nav>
+      </div>
+
+      <div class="auth-buttons">
+        <a href="login.html?view=register">
+          <button>Sign Up</button>
+        </a>
+        <a href="login.html?view=login">
+          <button>Log In</button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h2 class="section-title">EVENTS</h2>
+    <div class="event-grid" id="event-container">
+      <p id="loading-message">Loading events...</p>
+    </div>
+  </main>
+
+  <script src="events-script.js"></script>
+</body>
+</html>
