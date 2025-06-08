@@ -74,6 +74,12 @@ body {
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
+.panel-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .toggle-panel-right {
   right: 0;
   border-radius: 0 16px 16px 0;

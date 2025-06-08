@@ -22,7 +22,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 1em 0;
+  padding: 0.5em 0; /* reduced from 1em */
 }
 
 header .container {
@@ -38,11 +38,11 @@ header .container {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px; /* increased from 10px */
 }
 
 .logo-img {
-  height: 70px;
+  height: 60px;
   object-fit: contain;
 }
 
@@ -252,7 +252,7 @@ header .container {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .section-about .half {
