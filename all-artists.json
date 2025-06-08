@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Bita and the Botflies",
+    "type": "Band",
+    "genre": "Theatrical Pop",
+    "bio": "A bold and expressive group, Bita and the Botflies mixes cabaret, pop, and dark humor.",
+    "image": "artists/bita-and-the-botflies.png"
+  },
+  {
+    "id": 2,
+    "name": "Cup of Joe",
+    "type": "Band",
+    "genre": "Indie Pop",
+    "bio": "Cup of Joe is a Filipino indie band known for their catchy melodies and heartfelt lyrics.",
+    "image": "artists/cup-of-joe.png"
+  },
+
+  {
+    "id": 3,
+    "name": "Dilaw",
+    "type": "Band",
+    "genre": "Alt Rock / Hip-Hop",
+    "bio": "Dilaw blends gritty guitar riffs and rap-infused vocals for a raw, unique sound.",
+    "image": "artists/dilaw.jpg"
+  },
+  {
+    "id": 4,
+    "name": "ena mori",
+    "type": "Soloist",
+    "genre": "Art Pop / Electronic",
+    "bio": "ena mori creates maximalist pop music layered with synths and intense emotion.",
+    "image": "artists/ena-mori.png"
+  },
+  {
+    "id": 5,
+    "name": "formerly Maryknoll",
+    "type": "Band",
+    "genre": "Indie Rock",
+    "bio": "formerly Maryknoll is a band with reflective lyrics and emotional guitar-driven soundscapes.",
+    "image":  "artists/formerly-maryknoll.jpg"
+  },
+  {
+    "id": 6,
+    "name": "geiko",
+    "type": "Soloist",
+    "genre": "Experimental / Electronic",
+    "bio": "geiko’s haunting vocals and atmospheric beats create a moody, immersive experience.",
+    "image": "artists/geiko.jpg"
+  },
+  {
+    "id": 7,
+    "name": "HEY JUNE!",
+    "type": "Band",
+    "genre": "Alternative Rock",
+    "bio": "HEY JUNE! brings powerful lyrics and anthemic rock to the local music scene.",
+    "image": "artists/hey-june.jpg"
+  },
+  {
+    "id": 8,
+    "name": "IV of Spades",
+    "type": "Band",
+    "genre": "Funk Rock / Pop",
+    "bio": "One of the most iconic modern bands in the Philippines, IV of Spades delivers a retro-futuristic vibe.",
+    "image": "artists/iv-of-spades.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Leanne & Naara",
+    "type": "Duo",
+    "genre": "Pop / Soul",
+    "bio": "Leanne & Naara are a vocal duo known for their harmonies, heartfelt lyrics, and lush production.",
+    "image": "artists/leanne-&-naara.jpg"
+  },
+  {
+    "id": 10,
+    "name": "ONE CLICK STRAIGHT",
+    "type": "Band",
+    "genre": "Synth Pop / Rock",
+    "bio": "Known for their synth-heavy sound and slick visuals, ONE CLICK STRAIGHT is a standout in indie rock.",
+    "image": "artists/one-click-straight.jpg"
+  },
+  {
+    "id": 11,
+    "name": "SHANNi",
+    "type": "Soloist",
+    "genre": "Pop / R&B",
+    "bio": "SHANNi blends soulful vocals with modern beats to create a fresh, emotional sound.",
+    "image": "artists/shanni.jpg"
+  },
+  {
+    "id": 12,
+    "name": "SunKissed Lola",
+    "type": "Band",
+    "genre": "Soul / Pop",
+    "bio": "SunKissed Lola brings a sunny, smooth sound that's perfect for chill moments and dance vibes.",
+    "image": "artists/sunkissed-lola.jpg"
+  },
+  {
+    "id": 13,
+    "name": "SUYEN",
+    "type": "Soloist",
+    "genre": "R&B / Soul",
+    "bio": "SUYEN offers soulful tracks with powerful vocals and modern grooves.",
+    "image": "artists/suyen.jpg"
+  },
+  {
+    "id": 14,
+    "name": "syd hartha",
+    "type": "Soloist",
+    "genre": "Folk / Indie",
+    "bio": "syd hartha writes deeply personal songs with acoustic flair and poetic lyricism.",
+    "image": "artists/syd-hartha.jpg"
+  },
+  {
+    "id": 15,
+    "name": "The Vowels They Orbit",
+    "type": "Band",
+    "genre": "Indie Pop / Rock",
+    "bio": "This band captures youth and sincerity through jangly guitars and dreamy melodies.",
+    "image": "artists/the-vowels-they-orbit.jpg"
+  }
+]
