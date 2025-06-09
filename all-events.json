@@ -5,7 +5,7 @@
     "location": "Cove Manila, Okada Manila, Parañaque, Philippines",
     "date": "2025-06-14/2025-06-15",
     "genre": "OPM, rock, indie",
-    "description": "Malaya Music Fest celebrates 5 years of freedom and Filipino pride. Set in Cove Manila, it features big names like Ely Buendia, Kamikazee, Mayonnaise, and rising local acts in a two-day live event experience.",
+    "description": "Celebrating 5 years of freedom and Filipino pride with Ely Buendia, Kamikazee, Mayonnaise, and rising acts in a two-day live event.",
     "availableSlots": 10
   },
   {
@@ -14,7 +14,7 @@
     "location": "Ninoy Aquino Stadium, Manila, Philippines",
     "date": "2025-03-01",
     "genre": "Pop-rock, hip-hop, indie",
-    "description": "Kick Off Manila showcases emerging and mainstream Filipino music artists across genres. The festival aims to support local talent and donate a portion of proceeds to local youth art programs.",
+    "description": "Showcasing emerging and mainstream Filipino artists, supporting local talent and youth art programs.",
     "availableSlots": 8
   },
   {
@@ -23,7 +23,7 @@
     "location": "Clark Global City, Pampanga, Philippines",
     "date": "2025-05-03/2025-05-04",
     "genre": "Indie, pop, rock, arts",
-    "description": "Held annually alongside a vibrant hot air balloon display, the Aurora Music Festival blends music, food, and art in a two-day cultural spectacle. Past headliners include Ben&Ben, December Avenue, and Adie.",
+    "description": "Two-day festival blending music, food, and art alongside a hot air balloon display, featuring Ben&Ben and December Avenue.",
     "availableSlots": 12
   },
   {
@@ -32,7 +32,7 @@
     "location": "Okada Manila, Parañaque, Philippines",
     "date": "2025-05-30/2025-05-31",
     "genre": "EDM, hip-hop, pop culture",
-    "description": "A multi-genre music and culture festival featuring world-renowned DJs and artists like Zedd, Illenium, and bbno$, along with food stalls, cosplay showcases, and local art exhibitions.",
+    "description": "Multi-genre festival with world-class DJs like Zedd, plus food, cosplay, and local art.",
     "availableSlots": 15
   },
   {
@@ -41,7 +41,7 @@
     "location": "Soundcheck Studios, Pasig City, Philippines",
     "date": "2025-06-28",
     "genre": "Alternative rock, indie pop",
-    "description": "RADFEST is One Click Straight’s curated festival featuring alternative acts like Clara Benin, ena mori, Lola Amour, and more. A celebration of new music with surprise guests and collabs.",
+    "description": "Curated festival featuring acts like Clara Benin and Lola Amour, celebrating new music with surprise guests.",
     "availableSlots": 7
   },
   {
@@ -50,7 +50,7 @@
     "location": "The Cozy Cove, 27 Leonard Wood Rd, Baguio City",
     "date": "Bi-monthly (every 2nd and 4th Saturday)",
     "genre": "OPM, acoustic, indie",
-    "description": "A Baguio-based acoustic series featuring live performances from singer-songwriters and indie bands in an intimate cafe-bar setting. Known for its mountain chill vibes and curated lineups.",
+    "description": "Intimate acoustic series with singer-songwriters and indie bands, known for its chill mountain vibe.",
     "availableSlots": 4
   },
   {
@@ -59,7 +59,7 @@
     "location": "Hard Rock Cafe Manila, S Maison, Pasay City",
     "date": "Weekly (Wednesdays to Saturdays)",
     "genre": "Rock, soul, retro hits",
-    "description": "Enjoy live classic rock, R&B, and soul hits while dining at Hard Rock Cafe Manila. Recent performers include Luke Mejares and acoustic bands playing '80s to 2000s throwbacks.",
+    "description": "Live classic rock, R&B, and soul performances, featuring artists like Luke Mejares and acoustic throwbacks.",
     "availableSlots": 16
   },
   {
@@ -68,7 +68,7 @@
     "location": "12 Monkeys Music Hall & Pub, Estancia Mall, Capitol Commons, Pasig",
     "date": "Weekly (Fridays and Saturdays)",
     "genre": "Mixed genres (OPM, R&B, reggae, alt rock)",
-    "description": "12 Monkeys is Metro Manila’s go-to live music lounge, with gigs by local favorites like Ebe Dancel, Brownman Revival, and Paolo Santos. Rotating performances every weekend.",
+    "description": "Metro Manila’s live music lounge with gigs from favorites like Ebe Dancel and Brownman Revival every weekend.",
     "availableSlots": 14
   }
 ]

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const possiblePaths = [
     'all-events.json',
     './all-events.json',
@@ -28,28 +28,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function displayEvents(events) {
     const container = document.getElementById('event-container');
-    container.innerHTML = ''; // Clear loading message
+    container.innerHTML = '';
 
     events.forEach(event => {
       const card = document.createElement('div');
       card.className = 'event-card';
 
-      const imageHTML = event.image 
+      const imageHTML = event.image
         ? `<img src="${event.image}" alt="${event.name}" onerror="this.src='assets/default-event.jpg'">`
         : '<div class="missing-image">No Image</div>';
 
       card.innerHTML = `
-        <div class="profile-pic">
-          ${imageHTML}
+        <div class="card-top">
+          <div class="profile-pic">
+            ${imageHTML}
+          </div>
+          <div class="event-name">${event.name}</div>
+          <div class="event-meta">${event.date} • ${event.location}</div>
+          <div class="event-desc">${event.description}</div>
         </div>
-        <h3 class="event-name">${event.name}</h3>
-        <p class="event-meta"><strong>Location:</strong> ${event.location}</p>
-        <p class="event-meta"><strong>Date:</strong> ${event.date}</p>
-        <p class="event-meta"><strong>Genre:</strong> ${event.genre}</p>
-        <p class="event-desc">${event.description}</p>
-        <p class="event-meta"><strong>Available Slots:</strong> ${event.availableSlots}</p>
-        <button class="apply-btn" onclick="applyEvent('${event.id}')">Apply</button>
+        <div class="card-bottom">
+          <div class="event-slots">Available Slots: ${event.availableSlots}</div>
+          <button class="apply-btn" onclick="applyEvent('${event.id}')">Apply</button>
+        </div>
       `;
+
       container.appendChild(card);
     });
   }
@@ -72,8 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
   tryFetch(0);
 });
 
-// Stub for applying to an event (expand as needed)
 function applyEvent(id) {
   alert(`Apply button clicked for event ID: ${id}`);
-  // You can redirect or open a form for application here
 }
