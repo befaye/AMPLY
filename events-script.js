@@ -41,19 +41,21 @@ function createEventCard(event) {
   const card = document.createElement('div');
   card.className = 'event-card';
 
-  const imageHTML = event.image
-    ? `<img src="${event.image}" alt="${event.name}" onerror="this.src='assets/default-event.jpg'">`
-    : '<div class="missing-image">No Image</div>';
+  // Default image fallback if missing or failed to load
+  const imageSrc = event.image ? event.image : 'assets/default-event.jpg';
 
   card.innerHTML = `
-    <div class="event-pic">${imageHTML}</div>
+    <div class="event-pic">
+      <img src="${imageSrc}" alt="${event.name}" onerror="this.src='assets/default-event.jpg'">
+    </div>
     <h3 class="event-name">${event.name}</h3>
     <div class="event-meta">
-      <p><strong>Type:</strong> ${event.type}</p>
+      <p><strong>Location:</strong> ${event.location}</p>
+      <p><strong>Date:</strong> ${event.date}</p>
       <p><strong>Genre:</strong> ${event.genre}</p>
     </div>
     <p class="event-desc">${event.description}</p>
-    <p class="event-slots">Slots available: ${event.availableSlots}</p>
+    <p class="event-slots">🎤 Slots available: ${event.availableSlots}</p>
     <button class="apply-btn">Apply</button>
   `;
 

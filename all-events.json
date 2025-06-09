@@ -6,7 +6,8 @@
     "date": "2025-06-14/2025-06-15",
     "genre": "OPM, rock, indie",
     "description": "Celebrating 5 years of freedom and Filipino pride with Ely Buendia, Kamikazee, Mayonnaise, and rising acts in a two-day live event.",
-    "availableSlots": 10
+    "availableSlots": 10,
+    "image": "events/malaya-mf.jpg"
   },
   {
     "id": "kick-off-manila-music-fest-2025",
@@ -15,7 +16,8 @@
     "date": "2025-03-01",
     "genre": "Pop-rock, hip-hop, indie",
     "description": "Showcasing emerging and mainstream Filipino artists, supporting local talent and youth art programs.",
-    "availableSlots": 8
+    "availableSlots": 8,
+    "image": "events/kick-off-manila-mf.png"
   },
   {
     "id": "aurora-music-festival-clark-2025",
@@ -24,7 +26,8 @@
     "date": "2025-05-03/2025-05-04",
     "genre": "Indie, pop, rock, arts",
     "description": "Two-day festival blending music, food, and art alongside a hot air balloon display, featuring Ben&Ben and December Avenue.",
-    "availableSlots": 12
+    "availableSlots": 12,
+    "image": "events/aurora-mf.jpg"
   },
   {
     "id": "andfriends-festival-2025",
@@ -33,7 +36,8 @@
     "date": "2025-05-30/2025-05-31",
     "genre": "EDM, hip-hop, pop culture",
     "description": "Multi-genre festival with world-class DJs like Zedd, plus food, cosplay, and local art.",
-    "availableSlots": 15
+    "availableSlots": 15,
+    "image": "events/andfriends-fest.jpg"
   },
   {
     "id": "radfest-2025",
@@ -42,7 +46,8 @@
     "date": "2025-06-28",
     "genre": "Alternative rock, indie pop",
     "description": "Curated festival featuring acts like Clara Benin and Lola Amour, celebrating new music with surprise guests.",
-    "availableSlots": 7
+    "availableSlots": 7,
+    "image": "events/radfest.jpg"
   },
   {
     "id": "live-at-the-cozy-cove",
@@ -51,7 +56,8 @@
     "date": "Bi-monthly (every 2nd and 4th Saturday)",
     "genre": "OPM, acoustic, indie",
     "description": "Intimate acoustic series with singer-songwriters and indie bands, known for its chill mountain vibe.",
-    "availableSlots": 4
+    "availableSlots": 4,
+    "image": "events/the-cozy-cove-2.jpg"
   },
   {
     "id": "live-music-hard-rock-cafe-manila",
@@ -60,7 +66,8 @@
     "date": "Weekly (Wednesdays to Saturdays)",
     "genre": "Rock, soul, retro hits",
     "description": "Live classic rock, R&B, and soul performances, featuring artists like Luke Mejares and acoustic throwbacks.",
-    "availableSlots": 16
+    "availableSlots": 16,
+    "image": "events/hardrockcafe-2.png"
   },
   {
     "id": "live-music-12-monkeys",
@@ -69,6 +76,7 @@
     "date": "Weekly (Fridays and Saturdays)",
     "genre": "Mixed genres (OPM, R&B, reggae, alt rock)",
     "description": "Metro Manila’s live music lounge with gigs from favorites like Ebe Dancel and Brownman Revival every weekend.",
-    "availableSlots": 14
+    "availableSlots": 14,
+    "image": "events/12-monkeys-2.jpg"
   }
 ]
