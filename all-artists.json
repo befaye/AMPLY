@@ -20,7 +20,7 @@
       "artists-gallery/bita-1.jpg",
       "artists-gallery/bita-2.jpg"
     ],
-    "videoHighlight": "https://youtu.be/xr5rc3BVpiM?si=W0ZiseHonSn4snCL"
+    "videoHighlight": "https://www.youtube.com/watch?v=dln8tnQANVs"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
     "short-desc": "Cup of Joe is a Filipino indie band known for their catchy melodies and heartfelt lyrics.",
     "bio": "Cup of Joe is a Filipino indie pop band from Baguio City, known for their breezy, heartfelt music and storytelling. Formed in 2018, the group gained attention through tracks like “Nag-iisang Muli,” “Ikaw Pa Rin Ang Pipiliin Ko,” and “Tingin.” They’re noted for their fresh blend of acoustic and pop rock sounds with sentimental lyrics, often reflecting young love, hope, and nostalgia. Their rising popularity has placed them at the forefront of the new wave of OPM indie acts.",
     "pfp": "artists/cup-of-joe.png",
-    "cover-pic": "artists/cup-of-joe-cover.jpg",
+    "cover-pic": "artists-headers/coj-header.png",
     "location": "Baguio City, Philippines",
     "members": ["Raphael Ridao", "CJ Fernandez", "Gabriel Fernandez", "Elijah Manalo", "Sevi Severino", "Leo del Rosario"],
     "socials": {
@@ -39,8 +39,11 @@
       "youtube": "https://www.youtube.com/@cupofjoemusic_"
     },
     "contact": "cupofjoemusic@gmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/coj-1.png",
+      "artists-gallery/coj-2.png"
+    ],
+    "videoHighlight": "https://www.youtube.com/watch?v=B33a8YkS-hU"
   },
   {
     "id": 3,
@@ -50,17 +53,27 @@
     "short-desc": "Dilaw blends gritty guitar riffs and rap-infused vocals for a raw, unique sound.",
     "bio": "“Dilaw” started as a two-piece in Baguio back in 2021 with Dilaw Obero rapping/singing and Vie Dela Rosa on guitar. Before long they’d grown into a six-piece crew, adding siblings Wayne & Leon Altomonte, En Altomonte, and Tóbi Samson. They broke through hard with “Uhaw (Tayong Lahat)”—it smashed Spotify PH streaming records and held the top spot on Billboard Philippines Songs for three weeks. Their debut EP Sansinukob mixes indie rock, hip-hop, blues, and funk in a way that just feels fresh and unpredictable.",
     "pfp": "artists/dilaw.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/dilaw-header.jpg",
     "location": "Baguio City, Philippines",
-    "members": [],
+    "members": [
+      "Dilaw Obero",
+      "Vie Dela Rosa",
+      "Wayne Dela Rosa",
+      "Tobi Samson",
+      "Leon Karlos Altomonte",
+      "En Altomonte"
+    ],
     "socials": {
       "instagram": "https://instagram.com/dilaw.band",
       "spotify": "https://open.spotify.com/artist/??",
       "youtube": "https://www.youtube.com/@Dilaw"
     },
     "contact": "dilaw.band@musicmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/dilaw-1.png",
+      "artists-gallery/dilaw-2.png"
+    ],
+    "videoHighlight": "https://youtu.be/q4sVWIdHZPU?si=sMIQSIWdvRtAlW2Y"
   },
   {
     "id": 4,
@@ -70,7 +83,7 @@
     "short-desc": "ena mori creates maximalist pop music layered with synths and intense emotion.",
     "bio": "ena mori’s got this striking art-pop vibe—she’s classically trained on piano but loves throwing in maximalist, hyperpop, and electronic textures. She dropped her first EP in 2020, then followed it up with her full-length Don’t Blame the Wild One! in 2022, which won Best Album at the 2023 Awit Awards. She’s taken that sound overseas too, playing SXSW 2023 and even doing a Sofar Sounds stint in the UK.",
     "pfp": "artists/ena-mori.png",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/ena-header.png",
     "location": "Metro Manila, Philippines",
     "socials": {
       "instagram": "https://instagram.com/enamorimusic",
@@ -79,9 +92,10 @@
     },
     "contact": "enamori.music@gmail.com",
     "gallery": [
+      "artists-gallery/ena-2.png",
       "artists-gallery/ena-1.png"
     ],
-    "videoHighlight": ""
+    "videoHighlight": "https://www.youtube.com/watch?v=MBUhNNkr-Ho"
   },
   {
     "id": 5,
@@ -91,7 +105,7 @@
     "short-desc": "Reflective lyrics and emotional guitar-driven soundscapes define their music.",
     "bio": "formerly Maryknoll has been quietly making waves since around 2020. Think reflective lyrics, emotional guitar riffs, and heartfelt live sets—this indie rock band’s got an intimate, earnest energy that hits close to home, especially for their devoted local fans.",
     "pfp": "artists/formerly-maryknoll.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/fm-header.png",
     "location": "Metro Manila, Philippines",
     "members": [  "Nathan Reyes", "Dion Mella", "Luis Santiago", "Gabby Tinio"],
     "socials": {
@@ -100,8 +114,11 @@
       "youtube": "https://www.youtube.com/@formerlyMaryknoll"
     },
     "contact": "formerlymaryknoll@gmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/fm-1.png",
+      "artists-gallery/fm-2.png"
+    ],
+    "videoHighlight": "https://www.youtube.com/watch?v=0VdT4F-GUlo"
   },
   {
     "id": 6,
@@ -111,7 +128,7 @@
     "short-desc": "geiko’s haunting vocals and atmospheric beats create a moody, immersive experience.",
     "bio": "geiko’s a self-taught singer-songwriter from Dagupan who’s been posting music since she was a kid. Her sound is moody and atmospheric—imagine haunting vocals floating over experimental electronic beats. She draws inspiration from old-school OPM legends and even K-pop, giving her music this dreamy, nostalgic vibe.",
     "pfp": "artists/geiko.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/geiko-header.png",
     "location": "Manila, Philippines",
     "socials": {
       "instagram": "https://www.instagram.com/lunti0wl",
@@ -119,8 +136,11 @@
       "youtube": "https://www.youtube.com/@lunti0wl"
     },
     "contact": "geiko.music@gmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/geiko-1.png",
+      "artists-gallery/geiko-2.png"
+    ],
+    "videoHighlight": "https://www.youtube.com/watch?v=D5u1zmipT2c"
   },
   {
     "id": 7,
@@ -130,7 +150,7 @@
     "short-desc": "HEY JUNE! brings powerful lyrics and anthemic rock to the local music scene.",
     "bio": "HEY JUNE! formed in Manila in June 2021 (nice!). Jim Mase leads with vocals and guitar, backed by Coey Ballesteros on bass and Aci Fodra on drums. Their tunes mix indie-pop hooks with alternative-rock bite, all tied together with honest, reflective lyrics. They picked up Breakthrough Artist of the Year at the 2023 Awit Awards and dropped their debut album Curiosity Killed the Cat to boot.",
     "pfp": "artists/hey-june.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/hj-header.png",
     "location": "Manila, Philippines",
     "members": ["Jim Mase", "Coey Ballesteros", "Aci Fodra"],
     "socials": {
@@ -190,7 +210,7 @@
     "short-desc": "Synth-heavy indie rock with slick visuals and standout sound.",
     "bio": "This Parañaque four-piece has been tight since their high school days in 2009—Sam (lead guitar), Toffer (bass/keys), Tim (drums), and Joel (guitar/vocals). They dropped several albums over the years, including a 2023 self-titled release that landed among top international picks. Sticky catchy pop-punk and power-pop hooks with genuine, emotional lyrics—that’s their jam.",
     "pfp": "artists/one-click-straight.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/ocs-header.png",
     "location": "Parañaque, Philippines",
     "members": ["Joel Gonzalez", "Tim Marquez", "Toffer Marquez", "Sam Marquez"],
     "socials": {
@@ -199,8 +219,11 @@
       "youtube": "https://www.youtube.com/@ONECLICKSTRAIGHT"
     },
     "contact": "oneclickstraight@gmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/ocs-1.png",
+      "artists-gallery/ocs-2.png"
+    ],
+    "videoHighlight": "https://www.youtube.com/watch?v=eV9IELaoSIo"
   },
   {
     "id": 11,
@@ -210,7 +233,7 @@
     "short-desc": "SHANNi blends soulful vocals with modern beats for an emotional sound.",
     "bio": "SHANNi is Manila-based and taps into vintage soul, city pop, jazz, and modern R&B, with a dash of 70s torch song feel. Born into a musical family (ties to IV of Spades!), she emerged through Sony Music, winning over Gen Z listeners with her smooth, soulful voice floating over modern grooves.",
     "pfp": "artists/shanni.jpg",
-    "cover-pic":"",
+    "cover-pic":"artists-headers/shanni-header.png",
     "location": "Manila, Philippines",
     "socials": {
       "instagram": "https://instagram.com/shanni.music",
@@ -218,8 +241,11 @@
       "youtube": "https://youtube.com/@shanni"
     },
     "contact": "shanni.music@gmail.com",
-    "gallery": [],
-    "videoHighlight": ""
+    "gallery": [
+      "artists-gallery/shanni-1.png",
+      "artists-gallery/shanni-2.png"
+    ],
+    "videoHighlight": "https://www.youtube.com/watch?v=vKv88mqMQ_A"
   },
   {
     "id": 12,
