@@ -24,13 +24,13 @@
         </nav>
       </div>
 
-      <div class="auth-buttons">
-        <a href="login.html?view=register">
-          <button>Sign Up</button>
-        </a>
-        <a href="login.html?view=login">
-          <button>Log In</button>
-        </a>
+      <div class="profile-dropdown">
+        <img src="assets/blank-pfp.png" alt="User Avatar" class="avatar-icon" onclick="toggleDropdown()" />
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="profile.html">Profile</a>
+            <a href="applications.html">Event Applications</a>
+            <a href="login.html">Logout</a>
+        </div>
       </div>
     </div>
   </header>
@@ -43,7 +43,12 @@
     </div>
   </main>
 
-  <script src="artists-script.js"></script>
+  <footer class="site-footer">
+    &copy; 2025 AMPLY. All rights reserved.
+  </footer>
+
+  <script src="blank-profile.js"></script>
+  <script src="script.js"></script>
   
 </body>
 </html>

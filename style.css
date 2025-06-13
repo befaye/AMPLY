@@ -123,6 +123,76 @@ header .container {
 }
 
 /*==============================
+  blank pfp -manol
+==============================*/
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.avatar-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid rgba(139, 115, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.25s ease;
+  backdrop-filter: blur(6px);
+}
+
+.avatar-icon:hover {
+  transform: scale(1.08);
+  border-color: #8b73ff;
+  box-shadow: 0 0 8px rgba(139, 115, 255, 0.4);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 52px;
+  background-color: rgba(45, 52, 54, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 0.8rem 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  min-width: 200px;
+  z-index: 999;
+  animation: dropdownFadeIn 0.2s ease-out;
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: #dcdde1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+  transition: background 0.2s ease, padding-left 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(139, 115, 255, 0.1);
+  color: #ffffff;
+  padding-left: 1.8rem;
+}
+
+/*==============================
   hero siksyon -manol
 ==============================*/
 .hero {
