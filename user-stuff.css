@@ -126,3 +126,91 @@ body {
   background: linear-gradient(135deg, #ffc3d8, #ffe0e8);
   color: #2d3436;
 }
+
+/*==============================
+  event management -manol
+==============================*/
+.applications-container {
+  padding: 3rem 1.5rem;
+  color: #f5f5f5;
+  backdrop-filter: blur(6px);
+  background-color: rgba(29, 29, 29, 0.65);
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 4rem auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+#applications-list {
+  margin-top: 2rem;
+}
+
+.application-card {
+  border-top: 1px solid #444;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.application-card h3 {
+  font-size: 1.2rem;
+  color: #8b73ff;
+}
+
+.application-info {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
+.application-info a {
+  color: #8b73ff;
+  text-decoration: none;
+}
+
+.application-info a:hover {
+  color: #ff8dc4;
+}
+
+.message-box {
+  background-color: #2d3436;
+  border-radius: 8px;
+  padding: 1rem;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #ccc;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.application-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.application-actions button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.application-actions .approve-btn {
+  background-color: #8b73ff;
+  color: white;
+}
+
+.application-actions .reject-btn {
+  background-color: #ff8dc4;
+  color: #2d3436;
+}
+
+.application-actions button:hover {
+  transform: translateY(-2px);
+}

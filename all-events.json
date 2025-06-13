@@ -78,5 +78,15 @@
     "description": "Metro Manila’s live music lounge with gigs from favorites like Ebe Dancel and Brownman Revival every weekend.",
     "availableSlots": 14,
     "image": "events/12-monkeys-2.jpg"
+  },
+    {
+    "id": "bebets-paresan-and-karaoke-bar",
+    "name": "BEBET's Paresan & Karaoke Bar",
+    "location": "Stage VC, Basement #karaoke-lounge, BEBET's Paresan & Gaming Lounge",
+    "date": "Weekly (Fridays and Saturdays)",
+    "genre": "Any & all genres!",
+    "description": "Come for the pares, stay for the 3AM belters. Bebet’s is the underground (sometimes literally) Discord dive bar where everyone's a headliner—and no one escapes a duet.",
+    "availableSlots": 4,
+    "image": "events/bebets.png"
   }
 ]
