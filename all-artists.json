@@ -324,7 +324,7 @@
     "short-desc": "Ethereal vocals and lo-fi sound define Yaelokre’s dreamy, introspective style.",
     "bio": "Yaelokre is the whimsical solo project of Filipino-Icelandic artist Keath Ósk, blending dream pop, folk, and storytelling into a world all their own. Emerging in early 2024 with the viral single 'Harpy Hare,' Yaelokre quickly captured attention with their masked live performances, ethereal vocals, and Renaissance-inspired visuals. Their music is set in a fictional universe called Meadowlark, where animal-masked characters explore themes of identity, longing, and origin. With releases like the EPs Hayfields and Songs of Origin, Yaelokre crafts an immersive experience that feels part fairytale, part diary entry—equal parts delicate and haunting.",
     "pfp": "artists/yaelokre.png",
-    "cover-pic": "",
+    "cover-pic": "artists-headers/yaelokre-header.png",
     "location": "Reykjavík, Iceland / Manila, Philippines",
     "socials": {
       "Instagram": "https://instagram.com/yaelokre",
@@ -332,7 +332,10 @@
       "YouTube": "https://youtube.com/@yaelokre"
     },
     "contact": "yaelokre.music@gmail.com",
-    "gallery": [],
+    "gallery": [
+      "artists-gallery/yaelokre-1.png",
+      "artists-gallery/yaelokre-2.png"
+    ],
     "videoHighlight": "https://www.youtube.com/embed/exampleVideoID"
   }
 ]
