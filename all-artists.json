@@ -4,120 +4,322 @@
     "name": "Bita and the Botflies",
     "type": "Band",
     "genre": "Theatrical Pop",
-    "bio": "A bold and expressive group, Bita and the Botflies mixes cabaret, pop, and dark humor.",
-    "image": "artists/bita-and-the-botflies.png"
+    "short-desc": "A bold and expressive group, Bita and the Botflies mixes cabaret, pop, and dark humor.",
+    "bio": "Formed in Manila in 2016, Bita and the Botflies is known for its theatrical flair and provocative songwriting. Fronted by Sofy Aldeguer, the band blends elements of blues, rock, and cabaret, often exploring themes such as objectification, abuse, and social dysfunction. Their name is a combination of Sofy's nickname and parasitic imagery—emphasizing discomfort and raw truth. Their tracks like “Sisikat Ka Iha,” “Peklat Cream,” and “Guillotine Drops” exemplify their unique mix of haunting melodies, dark humor, and unapologetic storytelling.",
+    "pfp": "artists/bita-and-the-botflies.png",
+    "cover-pic": "artists/bita-and-the-botflies-cover.jpg",
+    "location": "Manila, Philippines",
+    "members": ["Sofy Aldeguer", "Rebel Aldeguer", "Kevin Novenario-Navea", "Rheymon Concepcion", "Mark Lincallo"],
+    "socials": {
+      "instagram": "@bita_andthebotflies",
+      "spotify": "Bita and the Botflies",
+      "youtube": "@bitaandthebotflies"
+    },
+    "contact": "bita.andthebotflies@gmail.com",
+    "gallery": [
+      "artist-gallery/bita-and-the-botflies/bita-and-the-botflies-gallery-1.jpg",
+      "assets/artists/artist1-gallery1.jpg"
+    ],
+    "videoHighlight": "https://youtu.be/xr5rc3BVpiM?si=W0ZiseHonSn4snCL"
   },
   {
     "id": 2,
     "name": "Cup of Joe",
     "type": "Band",
     "genre": "Indie Pop",
-    "bio": "Cup of Joe is a Filipino indie band known for their catchy melodies and heartfelt lyrics.",
-    "image": "artists/cup-of-joe.png"
+    "short-desc": "Cup of Joe is a Filipino indie band known for their catchy melodies and heartfelt lyrics.",
+    "bio": "Cup of Joe is a Filipino indie pop band from Baguio City, known for their breezy, heartfelt music and storytelling. Formed in 2018, the group gained attention through tracks like “Nag-iisang Muli,” “Ikaw Pa Rin Ang Pipiliin Ko,” and “Tingin.” They’re noted for their fresh blend of acoustic and pop rock sounds with sentimental lyrics, often reflecting young love, hope, and nostalgia. Their rising popularity has placed them at the forefront of the new wave of OPM indie acts.",
+    "pfp": "artists/cup-of-joe.png",
+    "cover-pic": "artists/cup-of-joe-cover.jpg",
+    "location": "Baguio City, Philippines",
+    "members": ["Raphael Ridao", "CJ Fernandez", "Gabriel Fernandez", "Elijah Manalo", "Sevi Severino", "Leo del Rosario"],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
-
   {
     "id": 3,
     "name": "Dilaw",
     "type": "Band",
     "genre": "Alt Rock / Hip-Hop",
-    "bio": "Dilaw blends gritty guitar riffs and rap-infused vocals for a raw, unique sound.",
-    "image": "artists/dilaw.jpg"
+    "short-desc": "Dilaw blends gritty guitar riffs and rap-infused vocals for a raw, unique sound.",
+    "bio": "“Dilaw” started as a two-piece in Baguio back in 2021 with Dilaw Obero rapping/singing and Vie Dela Rosa on guitar. Before long they’d grown into a six-piece crew, adding siblings Wayne & Leon Altomonte, En Altomonte, and Tóbi Samson. They broke through hard with “Uhaw (Tayong Lahat)”—it smashed Spotify PH streaming records and held the top spot on Billboard Philippines Songs for three weeks. Their debut EP Sansinukob mixes indie rock, hip-hop, blues, and funk in a way that just feels fresh and unpredictable.",
+    "pfp": "artists/dilaw.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 4,
     "name": "ena mori",
     "type": "Soloist",
     "genre": "Art Pop / Electronic",
-    "bio": "ena mori creates maximalist pop music layered with synths and intense emotion.",
-    "image": "artists/ena-mori.png"
+    "short-desc": "ena mori creates maximalist pop music layered with synths and intense emotion.",
+    "bio": "ena mori’s got this striking art-pop vibe—she’s classically trained on piano but loves throwing in maximalist, hyperpop, and electronic textures. She dropped her first EP in 2020, then followed it up with her full-length Don’t Blame the Wild One! in 2022, which won Best Album at the 2023 Awit Awards. She’s taken that sound overseas too, playing SXSW 2023 and even doing a Sofar Sounds stint in the UK.",
+    "pfp": "artists/ena-mori.png",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 5,
     "name": "formerly Maryknoll",
     "type": "Band",
     "genre": "Indie Rock",
-    "bio": "formerly Maryknoll is a band with reflective lyrics and emotional guitar-driven soundscapes.",
-    "image":  "artists/formerly-maryknoll.jpg"
+    "short-desc": "Reflective lyrics and emotional guitar-driven soundscapes define their music.",
+    "bio": "formerly Maryknoll has been quietly making waves since around 2020. Think reflective lyrics, emotional guitar riffs, and heartfelt live sets—this indie rock band’s got an intimate, earnest energy that hits close to home, especially for their devoted local fans.",
+    "pfp": "artists/formerly-maryknoll.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 6,
     "name": "geiko",
     "type": "Soloist",
     "genre": "Experimental / Electronic",
-    "bio": "geiko’s haunting vocals and atmospheric beats create a moody, immersive experience.",
-    "image": "artists/geiko.jpg"
+    "short-desc": "geiko’s haunting vocals and atmospheric beats create a moody, immersive experience.",
+    "bio": "geiko’s a self-taught singer-songwriter from Dagupan who’s been posting music since she was a kid. Her sound is moody and atmospheric—imagine haunting vocals floating over experimental electronic beats. She draws inspiration from old-school OPM legends and even K-pop, giving her music this dreamy, nostalgic vibe.",
+    "pfp": "artists/geiko.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 7,
     "name": "HEY JUNE!",
     "type": "Band",
     "genre": "Alternative Rock",
-    "bio": "HEY JUNE! brings powerful lyrics and anthemic rock to the local music scene.",
-    "image": "artists/hey-june.jpg"
+    "short-desc": "HEY JUNE! brings powerful lyrics and anthemic rock to the local music scene.",
+    "bio": "HEY JUNE! formed in Manila in June 2021 (nice!). Jim Mase leads with vocals and guitar, backed by Coey Ballesteros on bass and Aci Fodra on drums. Their tunes mix indie-pop hooks with alternative-rock bite, all tied together with honest, reflective lyrics. They picked up Breakthrough Artist of the Year at the 2023 Awit Awards and dropped their debut album Curiosity Killed the Cat to boot.",
+    "pfp": "artists/hey-june.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 8,
     "name": "IV of Spades",
     "type": "Band",
     "genre": "Funk Rock / Pop",
-    "bio": "One of the most iconic modern bands in the Philippines, IV of Spades delivers a retro-futuristic vibe.",
-    "image": "artists/iv-of-spades.jpg"
+    "short-desc": "Retro-futuristic vibes and standout style make IV of Spades iconic.",
+    "bio": "Born out of Manila’s funk-rock scene in 2014, IV of Spades rolled in style—first as a quartet, now a trio with Zild, Blaster, and Badjao. They’re the ones behind “Ilaw sa Daan,” “Hey Barbara,” and that dancefloor magnet “Mundo.” After Unique left in 2018, Zild took over vocals and they dropped CLAPCLAPCLAP! in 2019—pure retro-funk-pop energy.",
+    "pfp": "artists/iv-of-spades.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 9,
     "name": "Leanne & Naara",
     "type": "Duo",
     "genre": "Pop / Soul",
-    "bio": "Leanne & Naara are a vocal duo known for their harmonies, heartfelt lyrics, and lush production.",
-    "image": "artists/leanne-&-naara.jpg"
+    "short-desc": "A vocal duo known for their harmonies and heartfelt lyrics.",
+    "bio": "Leanne and Naara met in college, then officially linked up as a duo in 2015 at a café jam session. They went viral with “Again” in 2016 and even did a Nina cover of “Someday.” By 2019, Warner Music had them signed. Their acoustic indie-pop paired with pure emotion broke hearts—after a brief hiatus in 2024, they’re back with “Find Another Love.”",
+    "pfp": "artists/leanne-&-naara.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": ["Leanne", "Naara"],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 10,
     "name": "ONE CLICK STRAIGHT",
     "type": "Band",
     "genre": "Synth Pop / Rock",
-    "bio": "Known for their synth-heavy sound and slick visuals, ONE CLICK STRAIGHT is a standout in indie rock.",
-    "image": "artists/one-click-straight.jpg"
+    "short-desc": "Synth-heavy indie rock with slick visuals and standout sound.",
+    "bio": "This Parañaque four-piece has been tight since their high school days in 2009—Sam (lead guitar), Toffer (bass/keys), Tim (drums), and Joel (guitar/vocals). They dropped several albums over the years, including a 2023 self-titled release that landed among top international picks. Sticky catchy pop-punk and power-pop hooks with genuine, emotional lyrics—that’s their jam.",
+    "pfp": "artists/one-click-straight.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 11,
     "name": "SHANNi",
     "type": "Soloist",
     "genre": "Pop / R&B",
-    "bio": "SHANNi blends soulful vocals with modern beats to create a fresh, emotional sound.",
-    "image": "artists/shanni.jpg"
+    "short-desc": "SHANNi blends soulful vocals with modern beats for an emotional sound.",
+    "bio": "SHANNi is Manila-based and taps into vintage soul, city pop, jazz, and modern R&B, with a dash of 70s torch song feel. Born into a musical family (ties to IV of Spades!), she emerged through Sony Music, winning over Gen Z listeners with her smooth, soulful voice floating over modern grooves.",
+    "pfp": "artists/shanni.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 12,
     "name": "SunKissed Lola",
     "type": "Band",
     "genre": "Soul / Pop",
-    "bio": "SunKissed Lola brings a sunny, smooth sound that's perfect for chill moments and dance vibes.",
-    "image": "artists/sunkissed-lola.jpg"
+    "short-desc": "Smooth, sunny sounds perfect for both chill and dance moments.",
+    "bio": "Formed in 2021, this six-piece is basically a soul-pop supergroup—Dan Ombao (vocals/lead guitar), Bino Serito (rhythm), Laura Lacbain (vocals), Danj Quimson (bass), Genson Viloria (drums), Rodnie Resos (keys). They blend pop, soul, jazz, classical, even EDM. Tracks like “Pasilyo” and their Olaholah EP (Sept 2024) show off their polished harmonies and sun-soaked feel.",
+    "pfp": "artists/sunkissed-lola.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 13,
     "name": "SUYEN",
     "type": "Soloist",
     "genre": "R&B / Soul",
-    "bio": "SUYEN offers soulful tracks with powerful vocals and modern grooves.",
-    "image": "artists/suyen.jpg"
+    "short-desc": "Soulful tracks with powerful vocals and modern grooves.",
+    "bio": "SUYEN is a rising R&B/soul singer based in the Philippines, known for those rich, powerful vocals over modern grooves. Still emerging, so info’s a bit scarce, but the word is she’s one to watch.",
+    "pfp": "artists/suyen.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 14,
     "name": "syd hartha",
     "type": "Soloist",
     "genre": "Folk / Indie",
-    "bio": "syd hartha writes deeply personal songs with acoustic flair and poetic lyricism.",
-    "image": "artists/syd-hartha.jpg"
+    "short-desc": "Acoustic, poetic songwriting with deeply personal lyrics.",
+    "bio": "Sonia del Rosario—aka syd hartha—is the daughter of Eraserheads’ Marcus Adoro, but she’s carving her own path in indie-folk. Since 2017, she’s been dropping poetic acoustic songs that dig into personal themes. She signed with Sony Music Philippines and released her EP Gabay in March 2023, touching on trauma, kindness, and the journey of healing.",
+    "pfp": "artists/syd-hartha.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
   },
   {
     "id": 15,
     "name": "The Vowels They Orbit",
     "type": "Band",
     "genre": "Indie Pop / Rock",
-    "bio": "This band captures youth and sincerity through jangly guitars and dreamy melodies.",
-    "image": "artists/the-vowels-they-orbit.jpg"
+    "short-desc": "Capturing youth and sincerity through jangly guitars and dreamy melodies.",
+    "bio": "This five-piece indie pop-rock band formed in 2018 in Metro Manila and got signed to Soupstar and Sony Music PH. With Nikka Melchor (vocals/guitar), Hannah Dela Cruz, Jeremy Sayas, Gene Santiago and Patch Javier, they launched with an EP Ang Unang Ikot in 2020 featuring “Selos.” Think dreamy guitars and youthful lyrics that stick.",
+    "pfp": "artists/the-vowels-they-orbit.jpg",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "",
+    "gallery": [],
+    "videoHighlight": ""
+  },
+  {
+    "id": 16,
+    "name": "Yaelokre",
+    "type": "Soloist",
+    "genre": "Alternative / Dream Pop",
+    "short-desc": "Ethereal vocals and lo-fi sound define Yaelokre’s dreamy, introspective style.",
+    "bio": "Yaelokre is the whimsical solo project of Filipino-Icelandic artist Keath Ósk, blending dream pop, folk, and storytelling into a world all their own. Emerging in early 2024 with the viral single 'Harpy Hare,' Yaelokre quickly captured attention with their masked live performances, ethereal vocals, and Renaissance-inspired visuals. Their music is set in a fictional universe called Meadowlark, where animal-masked characters explore themes of identity, longing, and origin. With releases like the EPs Hayfields and Songs of Origin, Yaelokre crafts an immersive experience that feels part fairytale, part diary entry—equal parts delicate and haunting.",
+    "pfp": "artists/yaelokre.png",
+    "cover-pic":"",
+    "location": "",
+    "members": [],
+    "socials": {
+      "instagram": "https://instagram.com/yaelokre",
+      "spotify": "",
+      "youtube": ""
+    },
+    "contact": "yaelokre.music@gmail.com",
+    "gallery": [],
+    "videoHighlight": "https://www.youtube.com/embed/exampleVideoID"
   }
 ]
