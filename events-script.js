@@ -26,11 +26,14 @@ function fetchFromPaths(index, paths) {
     });
 }
 
+const eventMap = {};
+
 function displayEvents(events) {
   const container = document.getElementById('event-container');
   container.innerHTML = '';
 
   events.forEach(event => {
+    eventMap[event.id] = event; // Store for later lookup
     const card = createEventCard(event);
     container.appendChild(card);
     card.querySelector('.apply-btn').addEventListener('click', () => applyToEvent(event.id));
@@ -41,7 +44,6 @@ function createEventCard(event) {
   const card = document.createElement('div');
   card.className = 'event-card';
 
-  // Default image fallback if missing or failed to load
   const imageSrc = event.image ? event.image : 'assets/default-event.jpg';
 
   card.innerHTML = `
@@ -56,15 +58,20 @@ function createEventCard(event) {
     </div>
     <p class="event-desc">${event.description}</p>
     <p class="event-slots">🎤 Slots available: ${event.availableSlots}</p>
-    <button class="apply-btn">Apply</button>
+    <a class="apply-btn" href="event-application.html?eventId=${encodeURIComponent(event.id)}&eventName=${encodeURIComponent(event.name)}">Apply</a>
   `;
 
   return card;
 }
 
 function applyToEvent(id) {
-  // Replace with actual navigation or logic
-  window.location.href = `apply.html?eventId=${id}`;
+  function applyToEvent(id) {
+  const event = eventMap[id];
+  if (!event) return;
+
+  const query = `?eventId=${encodeURIComponent(event.id)}&eventName=${encodeURIComponent(event.name)}`;
+  window.location.href = `event-application.html${query}`;
+  }
 }
 
 function showError() {

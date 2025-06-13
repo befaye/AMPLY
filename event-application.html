@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Application | AMPLY</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="event-application-page">
+
+  <header>
+    <div class="container header-flex">
+      <div class="logo-nav-group">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="assets/white-transp-logo.png" alt="AMPLY Logo" class="logo-img" />
+            <h1 class="logo">AMPLY</h1>
+          </a>
+        </div>
+        <nav class="main-nav">
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="events.html" class="nav-link">Events</a>
+        </nav>
+      </div>
+
+      <div class="auth-buttons">
+        <a href="login.html?view=register">
+          <button>Sign Up</button>
+        </a>
+        <a href="login.html?view=login">
+          <button>Log In</button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <a href="events.html" class="back-btn">← Back to Events</a>
+
+  <main class="application-form-container">
+    <div class="container">
+      <h2>Apply for <span id="event-name">Event</span></h2>
+      <form id="application-form" class="application-form">
+        <input type="hidden" id="event-id" name="eventId" />
+
+        <label for="artist-name">Artist Name:</label>
+        <input type="text" id="artist-name" name="artistName" required />
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" />
+
+        <label for="performance-link">Performance Link (YouTube, SoundCloud, etc):</label>
+        <input type="url" id="performance-link" name="performanceLink" />
+
+        <label for="message">Message to Organizer:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+
+      <div id="success-message" class="success-message" style="display:none;">
+        ✅ Application submitted! The organizer will review your details.
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Load event data from URL
+    const params = new URLSearchParams(window.location.search);
+    const eventId = params.get('eventId');
+    const eventName = params.get('eventName');
+
+    document.getElementById('event-name').textContent = decodeURIComponent(eventName || '');
+    document.getElementById('event-id').value = eventId || '';
+
+    // Handle form submission
+    document.getElementById('application-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const formData = {
+        eventId: document.getElementById('event-id').value,
+        artistName: document.getElementById('artist-name').value,
+        email: document.getElementById('email').value,
+        genre: document.getElementById('genre').value,
+        performanceLink: document.getElementById('performance-link').value,
+        message: document.getElementById('message').value,
+        submittedAt: new Date().toISOString()
+      };
+
+      // Save to localStorage (or replace with backend integration)
+      const applications = JSON.parse(localStorage.getItem('eventApplications') || '[]');
+      applications.push(formData);
+      localStorage.setItem('eventApplications', JSON.stringify(applications));
+
+      document.getElementById('application-form').reset();
+      document.getElementById('success-message').style.display = 'block';
+    });
+  </script>
+</body>
+</html>

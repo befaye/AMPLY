@@ -130,6 +130,9 @@ async function renderArtistProfile() {
     return;
   }
 
+  // Scroll to top before rendering
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
   // Cover Photo (set as background image)
   const coverEl = document.querySelector('.cover-photo');
   coverEl.style.backgroundImage = `url('${artist["cover-pic"] || "assets/default-cover.jpg"}')`;
@@ -146,11 +149,12 @@ async function renderArtistProfile() {
   document.getElementById('artist-type').textContent = artist.type || "Unknown";
   document.getElementById('artist-location').textContent = artist.location || "Unknown";
 
-  document.querySelector('.profile-details').classList.add('fade-in');
+  // Bio
+  document.getElementById('artist-bio').textContent = artist.bio || "No biography available.";
 
-// Members (if group/band)
-const membersSection = document.getElementById('members-section');
-const membersWrapper = membersSection?.closest('.members-wrapper');
+  // Members (if group/band)
+  const membersSection = document.getElementById('members-section');
+  const membersWrapper = membersSection?.closest('.members-wrapper');
 
 if (artist.type?.toLowerCase().includes('band') || artist.type?.toLowerCase().includes('group')) {
   const memberList = artist.members?.join(', ') || "No members listed";
@@ -202,6 +206,9 @@ if (artist.type?.toLowerCase().includes('band') || artist.type?.toLowerCase().in
   } else {
     videoSection.innerHTML = "<p>No video highlight available.</p>";
   }
+  // Fade in all main profile content after rendering
+  document.querySelector('.profile-details')?.classList.add('fade-in');
+  document.querySelector('.main-artist-content')?.classList.add('fade-in');
 }
 
 // Convert YouTube URL to embed iframe

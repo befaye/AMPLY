@@ -7,7 +7,7 @@
     "short-desc": "A bold and expressive group, Bita and the Botflies mixes cabaret, pop, and dark humor.",
     "bio": "Formed in Manila in 2016, Bita and the Botflies is known for its theatrical flair and provocative songwriting. Fronted by Sofy Aldeguer, the band blends elements of blues, rock, and cabaret, often exploring themes such as objectification, abuse, and social dysfunction. Their name is a combination of Sofy's nickname and parasitic imagery—emphasizing discomfort and raw truth. Their tracks like “Sisikat Ka Iha,” “Peklat Cream,” and “Guillotine Drops” exemplify their unique mix of haunting melodies, dark humor, and unapologetic storytelling.",
     "pfp": "artists/bita-and-the-botflies.png",
-    "cover-pic": "artists/bita-and-the-botflies-cover.jpg",
+    "cover-pic": "artists-headers/bita-header.png",
     "location": "Manila, Philippines",
     "members": ["Sofy Aldeguer", "Rebel Aldeguer", "Kevin Novenario-Navea", "Rheymon Concepcion", "Mark Lincallo"],
     "socials": {
@@ -17,8 +17,8 @@
     },
     "contact": "bita.andthebotflies@gmail.com",
     "gallery": [
-      "artist-gallery/bita-and-the-botflies/bita-and-the-botflies-gallery-1.jpg",
-      "artist-gallery/bita-and-the-botflies/bita.webp"
+      "artists-gallery/bita-1.jpg",
+      "artists-gallery/bita-2.jpg"
     ],
     "videoHighlight": "https://youtu.be/xr5rc3BVpiM?si=W0ZiseHonSn4snCL"
   },
@@ -78,7 +78,9 @@
       "youtube": "https://www.youtube.com/@enamorimusic"
     },
     "contact": "enamori.music@gmail.com",
-    "gallery": [],
+    "gallery": [
+      "artists-gallery/ena-1.png"
+    ],
     "videoHighlight": ""
   },
   {
