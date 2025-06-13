@@ -40,7 +40,7 @@
   <main class="profile-details">
   <div class="container">
     <div class="top-section">
-      <img id="pfp-img" class="pfp-img profile-pfp" alt="Profile Picture"/>
+      <img id="pfp-img" class="profile-pfp" alt="Profile Picture"/>
       <div class="basic-info profile-basic-info">
         <h2 id="artist-name"></h2>
         <p id="artist-type"></p>
@@ -51,20 +51,38 @@
         </div>
       </div>
     </div>
+
+    <!-- Bio and General Info -->
+    <div class="profile-info-box" id="bio-section">
+      <h3>About the Artist</h3>
+      <p id="artist-bio" class="bio-text"></p>
+    </div>
+
+    <!-- Socials & Contacts Container -->
+    <div class="profile-info-box two-col">
+      <div class="info-subbox">
+        <h3>Socials</h3>
+        <div id="socials-section"></div>
+      </div>
+      <div class="info-subbox">
+        <h3>Contact</h3>
+        <div id="contact-section"></div>
+      </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="profile-info-box">
+      <h3>Gallery</h3>
+      <div class="gallery-grid" id="artist-gallery"></div>
+    </div>
+
+    <!-- Video Highlight -->
+    <div class="profile-info-box">
+      <h3>Highlight Video</h3>
+      <div class="highlight-video" id="artist-video"></div>
+    </div>
   </div>
-    <div class="profile-info-box" id="socials-section"></div>
-    <div class="profile-info-box" id="contact-section"></div>
-
-    <div class="profile-info-box">
-        <h3>Gallery</h3>
-        <div class="gallery-grid" id="artist-gallery"></div>
-    </div>
-
-    <div class="profile-info-box">
-        <h3>Highlight Video</h3>
-        <div class="highlight-video" id="artist-video"></div>
-    </div>
-    </main>
+  </main>
 
   <script src="artists-script.js"></script>
 </body>
