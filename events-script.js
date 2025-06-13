@@ -90,3 +90,34 @@ function showError() {
 
   document.getElementById('retry-btn').addEventListener('click', () => location.reload());
 }
+
+// Load event data from URL
+const params = new URLSearchParams(window.location.search);
+const eventId = params.get('eventId');
+const eventName = params.get('eventName');
+
+document.getElementById('event-name').textContent = decodeURIComponent(eventName || '');
+document.getElementById('event-id').value = eventId || '';
+
+// Handle form submission
+document.getElementById('application-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const formData = {
+    eventId: document.getElementById('event-id').value,
+    artistName: document.getElementById('artist-name').value,
+    email: document.getElementById('email').value,
+    genre: document.getElementById('genre').value,
+    performanceLink: document.getElementById('performance-link').value,
+    message: document.getElementById('message').value,
+    submittedAt: new Date().toISOString()
+  };
+
+  // Save to localStorage (or replace with backend integration)
+  const applications = JSON.parse(localStorage.getItem('eventApplications') || '[]');
+  applications.push(formData);
+  localStorage.setItem('eventApplications', JSON.stringify(applications));
+
+  document.getElementById('application-form').reset();
+  document.getElementById('success-message').style.display = 'block';
+});
