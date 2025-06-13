@@ -11,14 +11,14 @@
     "location": "Manila, Philippines",
     "members": ["Sofy Aldeguer", "Rebel Aldeguer", "Kevin Novenario-Navea", "Rheymon Concepcion", "Mark Lincallo"],
     "socials": {
-      "instagram": "@bita_andthebotflies",
-      "spotify": "Bita and the Botflies",
-      "youtube": "@bitaandthebotflies"
+      "instagram": "https://www.instagram.com/bita_andthebotflies/",
+      "spotify": "https://open.spotify.com/artist/6wQbHETCxSB5DY6ujtAeZ3?si=UxaWSGuBTJ6ZZ_-l1Lw4Ug",
+      "youtube": "https://www.youtube.com/@bitaandthebotflies"
     },
     "contact": "bita.andthebotflies@gmail.com",
     "gallery": [
       "artist-gallery/bita-and-the-botflies/bita-and-the-botflies-gallery-1.jpg",
-      "assets/artists/artist1-gallery1.jpg"
+      "artist-gallery\bita-and-the-botflies\bita.webp"
     ],
     "videoHighlight": "https://youtu.be/xr5rc3BVpiM?si=W0ZiseHonSn4snCL"
   },
@@ -34,11 +34,11 @@
     "location": "Baguio City, Philippines",
     "members": ["Raphael Ridao", "CJ Fernandez", "Gabriel Fernandez", "Elijah Manalo", "Sevi Severino", "Leo del Rosario"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/cupofjoemusic_",
+      "spotify": "https://open.spotify.com/artist/61nn6nOoLWjVC1ER2qFAvN?si=Yqlzewh1QAuiXrbZgwdWKw",
+      "youtube": "https://www.youtube.com/@cupofjoemusic_"
     },
-    "contact": "",
+    "contact": "cupofjoemusic@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -51,14 +51,14 @@
     "bio": "“Dilaw” started as a two-piece in Baguio back in 2021 with Dilaw Obero rapping/singing and Vie Dela Rosa on guitar. Before long they’d grown into a six-piece crew, adding siblings Wayne & Leon Altomonte, En Altomonte, and Tóbi Samson. They broke through hard with “Uhaw (Tayong Lahat)”—it smashed Spotify PH streaming records and held the top spot on Billboard Philippines Songs for three weeks. Their debut EP Sansinukob mixes indie rock, hip-hop, blues, and funk in a way that just feels fresh and unpredictable.",
     "pfp": "artists/dilaw.jpg",
     "cover-pic":"",
-    "location": "",
+    "location": "Baguio City, Philippines",
     "members": [],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/dilaw.band",
+      "spotify": "https://open.spotify.com/artist/??",
+      "youtube": "https://www.youtube.com/@Dilaw"
     },
-    "contact": "",
+    "contact": "dilaw.band@musicmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -71,14 +71,13 @@
     "bio": "ena mori’s got this striking art-pop vibe—she’s classically trained on piano but loves throwing in maximalist, hyperpop, and electronic textures. She dropped her first EP in 2020, then followed it up with her full-length Don’t Blame the Wild One! in 2022, which won Best Album at the 2023 Awit Awards. She’s taken that sound overseas too, playing SXSW 2023 and even doing a Sofar Sounds stint in the UK.",
     "pfp": "artists/ena-mori.png",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Metro Manila, Philippines",
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/enamorimusic",
+      "spotify": "https://open.spotify.com/artist/5FW3vzEP2gQB3RQRNmR6ON",
+      "youtube": "https://www.youtube.com/@enamorimusic"
     },
-    "contact": "",
+    "contact": "enamori.music@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -91,14 +90,14 @@
     "bio": "formerly Maryknoll has been quietly making waves since around 2020. Think reflective lyrics, emotional guitar riffs, and heartfelt live sets—this indie rock band’s got an intimate, earnest energy that hits close to home, especially for their devoted local fans.",
     "pfp": "artists/formerly-maryknoll.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Metro Manila, Philippines",
+    "members": [  "Nathan Reyes", "Dion Mella", "Luis Santiago", "Gabby Tinio"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/formerlymaryknoll",
+      "spotify": "https://open.spotify.com/artist/232Cv3B6VDWxStcTbXQBbr?si=TULoovpLS0marg0zL4UXxw",
+      "youtube": "https://www.youtube.com/@formerlyMaryknoll"
     },
-    "contact": "",
+    "contact": "formerlymaryknoll@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -111,14 +110,13 @@
     "bio": "geiko’s a self-taught singer-songwriter from Dagupan who’s been posting music since she was a kid. Her sound is moody and atmospheric—imagine haunting vocals floating over experimental electronic beats. She draws inspiration from old-school OPM legends and even K-pop, giving her music this dreamy, nostalgic vibe.",
     "pfp": "artists/geiko.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Manila, Philippines",
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/lunti0wl",
+      "spotify": "https://open.spotify.com/artist/6buyTec2V7K6LVmL74MLl2?si=mVRBrXvTTHqrAOw-LpRnhQ",
+      "youtube": "https://www.youtube.com/@lunti0wl"
     },
-    "contact": "",
+    "contact": "geiko.music@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -131,14 +129,14 @@
     "bio": "HEY JUNE! formed in Manila in June 2021 (nice!). Jim Mase leads with vocals and guitar, backed by Coey Ballesteros on bass and Aci Fodra on drums. Their tunes mix indie-pop hooks with alternative-rock bite, all tied together with honest, reflective lyrics. They picked up Breakthrough Artist of the Year at the 2023 Awit Awards and dropped their debut album Curiosity Killed the Cat to boot.",
     "pfp": "artists/hey-june.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Manila, Philippines",
+    "members": ["Jim Mase", "Coey Ballesteros", "Aci Fodra"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/heyjuneofficial",
+      "spotify": "https://open.spotify.com/artist/heyjune",
+      "youtube": "https://youtube.com/@heyjuneofficial"
     },
-    "contact": "",
+    "contact": "heyjune.band@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -151,14 +149,14 @@
     "bio": "Born out of Manila’s funk-rock scene in 2014, IV of Spades rolled in style—first as a quartet, now a trio with Zild, Blaster, and Badjao. They’re the ones behind “Ilaw sa Daan,” “Hey Barbara,” and that dancefloor magnet “Mundo.” After Unique left in 2018, Zild took over vocals and they dropped CLAPCLAPCLAP! in 2019—pure retro-funk-pop energy.",
     "pfp": "artists/iv-of-spades.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Manila, Philippines",
+    "members": ["Zild Benitez", "Blaster Silonga", "Badjao de Castro"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/ivofspades",
+      "spotify": "https://open.spotify.com/artist/5tPnYBqs4Y1oCmayxslz82",
+      "youtube": "https://youtube.com/@ivofspadesofficial"
     },
-    "contact": "",
+    "contact": "ivofspades@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -171,14 +169,14 @@
     "bio": "Leanne and Naara met in college, then officially linked up as a duo in 2015 at a café jam session. They went viral with “Again” in 2016 and even did a Nina cover of “Someday.” By 2019, Warner Music had them signed. Their acoustic indie-pop paired with pure emotion broke hearts—after a brief hiatus in 2024, they’re back with “Find Another Love.”",
     "pfp": "artists/leanne-&-naara.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": ["Leanne", "Naara"],
+    "location": "Metro Manila, Philippines",
+    "members": ["Leanne Mamonong", "Naara Acueza"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/leanneandnaara/",
+      "spotify": "https://open.spotify.com/artist/2nZ18B9RTjJH56v2NTnNAI?si=19e54UdCRDu32C8sO112aw",
+      "youtube": "https://www.youtube.com/@LeanneandNaara"
     },
-    "contact": "",
+    "contact": "leanneandnaara@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -191,14 +189,14 @@
     "bio": "This Parañaque four-piece has been tight since their high school days in 2009—Sam (lead guitar), Toffer (bass/keys), Tim (drums), and Joel (guitar/vocals). They dropped several albums over the years, including a 2023 self-titled release that landed among top international picks. Sticky catchy pop-punk and power-pop hooks with genuine, emotional lyrics—that’s their jam.",
     "pfp": "artists/one-click-straight.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Parañaque, Philippines",
+    "members": ["Joel Gonzalez", "Tim Marquez", "Toffer Marquez", "Sam Marquez"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/oneclickstraight/",
+      "spotify": "https://open.spotify.com/artist/457BGAQIRpxlvY5gcbDjUQ?si=TXCey6MMTI-mxKvUoyssFA",
+      "youtube": "https://www.youtube.com/@ONECLICKSTRAIGHT"
     },
-    "contact": "",
+    "contact": "oneclickstraight@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -211,14 +209,13 @@
     "bio": "SHANNi is Manila-based and taps into vintage soul, city pop, jazz, and modern R&B, with a dash of 70s torch song feel. Born into a musical family (ties to IV of Spades!), she emerged through Sony Music, winning over Gen Z listeners with her smooth, soulful voice floating over modern grooves.",
     "pfp": "artists/shanni.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Manila, Philippines",
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/shanni.music",
+      "spotify": "https://open.spotify.com/artist/5sKkm8qZjvVtvzJAHbRas1",
+      "youtube": "https://youtube.com/@shanni"
     },
-    "contact": "",
+    "contact": "shanni.music@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -231,14 +228,14 @@
     "bio": "Formed in 2021, this six-piece is basically a soul-pop supergroup—Dan Ombao (vocals/lead guitar), Bino Serito (rhythm), Laura Lacbain (vocals), Danj Quimson (bass), Genson Viloria (drums), Rodnie Resos (keys). They blend pop, soul, jazz, classical, even EDM. Tracks like “Pasilyo” and their Olaholah EP (Sept 2024) show off their polished harmonies and sun-soaked feel.",
     "pfp": "artists/sunkissed-lola.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Olongapo, Philippines",
+    "members": ["Dan Ombao", "Laura Lacbain", "Bino Serito", "Danj Quimson", "Genson Viloria", "Rodnie Resos"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/sunkissedlola",
+      "spotify": "https://open.spotify.com/artist/6hJZbsFvdktrzL7IucH9Lk",
+      "youtube": "https://youtube.com/@sunkissedlola"
     },
-    "contact": "",
+    "contact": "sunkissedlola@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -251,14 +248,13 @@
     "bio": "SUYEN is a rising R&B/soul singer based in the Philippines, known for those rich, powerful vocals over modern grooves. Still emerging, so info’s a bit scarce, but the word is she’s one to watch.",
     "pfp": "artists/suyen.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Quezon City, Philippines",
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/suyen.music",
+      "spotify": "https://open.spotify.com/artist/4oRYC3iR0lXLWq4vZ4D4Fx",
+      "youtube": "https://youtube.com/@suyenmusic"
     },
-    "contact": "",
+    "contact": "suyen.music@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -271,14 +267,13 @@
     "bio": "Sonia del Rosario—aka syd hartha—is the daughter of Eraserheads’ Marcus Adoro, but she’s carving her own path in indie-folk. Since 2017, she’s been dropping poetic acoustic songs that dig into personal themes. She signed with Sony Music Philippines and released her EP Gabay in March 2023, touching on trauma, kindness, and the journey of healing.",
     "pfp": "artists/syd-hartha.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Manila, Philippines",
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/sydhartha",
+      "spotify": "https://open.spotify.com/artist/0Z8Fw6zPAhXpFJzUO3jC6L",
+      "youtube": "https://youtube.com/@sydhartha"
     },
-    "contact": "",
+    "contact": "sydhartha@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -291,14 +286,14 @@
     "bio": "This five-piece indie pop-rock band formed in 2018 in Metro Manila and got signed to Soupstar and Sony Music PH. With Nikka Melchor (vocals/guitar), Hannah Dela Cruz, Jeremy Sayas, Gene Santiago and Patch Javier, they launched with an EP Ang Unang Ikot in 2020 featuring “Selos.” Think dreamy guitars and youthful lyrics that stick.",
     "pfp": "artists/the-vowels-they-orbit.jpg",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Metro Manila, Philippines",
+    "members": ["Nikka Melchor", "Hannah Dela Cruz", "Jeremy Sayas", "Gene Santiago", "Patch Javier"],
     "socials": {
-      "instagram": "",
-      "spotify": "",
-      "youtube": ""
+      "instagram": "https://instagram.com/thevowelstheyorbit",
+      "spotify": "https://open.spotify.com/artist/3NcK1ukrglLRFyqtX9WfsV",
+      "youtube": "https://youtube.com/@thevowelstheyorbit"
     },
-    "contact": "",
+    "contact": "thevowelstheyorbit@gmail.com",
     "gallery": [],
     "videoHighlight": ""
   },
@@ -311,12 +306,11 @@
     "bio": "Yaelokre is the whimsical solo project of Filipino-Icelandic artist Keath Ósk, blending dream pop, folk, and storytelling into a world all their own. Emerging in early 2024 with the viral single 'Harpy Hare,' Yaelokre quickly captured attention with their masked live performances, ethereal vocals, and Renaissance-inspired visuals. Their music is set in a fictional universe called Meadowlark, where animal-masked characters explore themes of identity, longing, and origin. With releases like the EPs Hayfields and Songs of Origin, Yaelokre crafts an immersive experience that feels part fairytale, part diary entry—equal parts delicate and haunting.",
     "pfp": "artists/yaelokre.png",
     "cover-pic":"",
-    "location": "",
-    "members": [],
+    "location": "Reykjavík, Iceland / Manila, Philippines",
     "socials": {
       "instagram": "https://instagram.com/yaelokre",
-      "spotify": "",
-      "youtube": ""
+      "spotify": "https://open.spotify.com/artist/7xN9Nc9z8kYaelokre",
+      "youtube": "https://youtube.com/@yaelokre"
     },
     "contact": "yaelokre.music@gmail.com",
     "gallery": [],
