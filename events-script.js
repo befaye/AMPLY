@@ -121,3 +121,35 @@ document.getElementById('application-form').addEventListener('submit', function(
   document.getElementById('application-form').reset();
   document.getElementById('success-message').style.display = 'block';
 });
+
+// Load event JSON again to get image
+if (eventId) {
+  const paths = [
+    'all-events.json',
+    './all-events.json',
+    'data/all-events.json',
+    '../all-events.json'
+  ];
+  fetchImageFromPaths(0, paths);
+}
+
+function fetchImageFromPaths(index, paths) {
+  if (index >= paths.length) return;
+
+  fetch(paths[index])
+    .then(res => {
+      if (!res.ok) throw new Error('Fetch failed');
+      return res.json();
+    })
+    .then(events => {
+      const event = events.find(e => e.id === eventId);
+      if (event && event.image) {
+        document.body.style.background = `url('${event.image}') no-repeat center center fixed`;
+        document.body.style.backgroundSize = 'cover';
+      }
+    })
+    .catch(() => {
+      console.log(`Image load failed from: ${paths[index]}`);
+      fetchImageFromPaths(index + 1, paths);
+    });
+}
