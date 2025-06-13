@@ -728,11 +728,16 @@ body.events-page {
 
 .top-section {
   display: flex;
+  align-items: center;
   gap: 2rem;
-  align-items: flex-end;
-  transform: translateY(-80px);
-  position: relative;
-  z-index: 2;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .artist-profile-page .profile-pfp {

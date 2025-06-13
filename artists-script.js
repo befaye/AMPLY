@@ -148,14 +148,16 @@ async function renderArtistProfile() {
 
   document.querySelector('.profile-details').classList.add('fade-in');
 
-  // Members (if group/band)
-  const membersSection = document.getElementById('members-section');
-  const membersWrapper = membersSection?.closest('.members-wrapper');
-  if (artist.type?.toLowerCase().includes('band') || artist.type?.toLowerCase().includes('group')) {
-    membersSection.innerHTML = artist.members?.map(name => `<li>${name}</li>`).join('') || "<li>No members listed</li>";
-  } else if (membersWrapper) {
-    membersWrapper.style.display = 'none';
-  }
+// Members (if group/band)
+const membersSection = document.getElementById('members-section');
+const membersWrapper = membersSection?.closest('.members-wrapper');
+
+if (artist.type?.toLowerCase().includes('band') || artist.type?.toLowerCase().includes('group')) {
+  const memberList = artist.members?.join(', ') || "No members listed";
+  membersSection.innerHTML = `<strong>Members:</strong> ${memberList}`;
+} else if (membersWrapper) {
+  membersWrapper.style.display = 'none';
+}
 
   // Socials
   const socialsSection = document.getElementById('socials-section');
@@ -217,3 +219,5 @@ function getYouTubeEmbed(url) {
 if (window.location.href.includes('artist-profile.html')) {
   renderArtistProfile();
 }
+
+
