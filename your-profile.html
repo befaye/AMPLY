@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile | AMPLY</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="blank-profile.css"/>
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="logo-nav-group">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="assets/white-transp-logo.png" alt="AMPLY Logo" class="logo-img" />
+            <h1 class="logo">AMPLY</h1>
+          </a>
+        </div>
+        <nav class="main-nav">
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="events.html" class="nav-link">Events</a>
+        </nav>
+      </div>
+      <div class="profile-dropdown">
+        <img src="assets/blank-pfp.png" alt="User Avatar" class="avatar-icon" onclick="toggleDropdown()" />
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="profile.html">Profile</a>
+          <a href="applications.html">My Events</a>
+          <a href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="profile-main container">
+    <!-- Profile Header -->
+    <section class="profile-header">
+      <img src="assets/blank-pfp.png" alt="Profile Picture" class="profile-pic" />
+      <div class="profile-info">
+        <h2>DUO:TONE</h2>
+        <p class="handle">@duotone</p>
+        <p class="role">Event Organizer</p>
+        <p class="location">Manila, PH</p>
+      </div>
+    </section>
+
+    <!-- Contact & Info Panel -->
+    <section class="profile-details">
+      <div class="info-column">
+        <p><strong>Email:</strong> duotone@gmail.com</p>
+        <p><strong>Phone:</strong> Private</p>
+        <p><strong>Organization:</strong> DUO:TONE</p>
+        <p><strong>Website:</strong> <a href="#">duotone.link</a></p>
+        <p><strong>Date Joined:</strong> Jun 2025</p>
+        <p><strong>Last Active:</strong> June 14, 2025</p>
+      </div>
+    </section>
+
+    <!-- Management Buttons -->
+    <section class="profile-actions">
+      <button class="action-btn">Edit Profile</button>
+      <button class="action-btn">Change Password</button>
+      <a href="applications.html">Manage Events</a>
+      <a href="login.html" class="logout-btn">Log Out</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="blank-profile.js"></script>
+  
+</body>
+</html>

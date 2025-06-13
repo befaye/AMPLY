@@ -100,3 +100,5 @@ registerForm.addEventListener("submit", function (e) {
 
   toggleToLoginBtn.click();
 });
+
+
