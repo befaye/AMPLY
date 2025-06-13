@@ -226,5 +226,3 @@ function getYouTubeEmbed(url) {
 if (window.location.href.includes('artist-profile.html')) {
   renderArtistProfile();
 }
-
-

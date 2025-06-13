@@ -838,6 +838,7 @@ body.events-page {
   border-radius: 12px;
   object-fit: cover;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .gallery-grid img:hover {
