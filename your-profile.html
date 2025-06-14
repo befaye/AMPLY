@@ -34,36 +34,66 @@
   </header>
 
   <main class="profile-main container">
-    <!-- Profile Header -->
-    <section class="profile-header">
-      <img src="assets/blank-pfp.png" alt="Profile Picture" class="profile-pic" />
-      <div class="profile-info">
-        <h2>DUO:TONE</h2>
-        <p class="handle">@duotone</p>
-        <p class="role">Event Organizer</p>
-        <p class="location">Manila, PH</p>
-      </div>
-    </section>
+  <!-- Profile Header -->
+  <section class="profile-header">
+    <img src="assets/blank-pfp.png" alt="Profile Picture" class="profile-pic" />
+    <div class="profile-info">
+      <!-- Displayed Info -->
+      <h2 id="profileName">DUO:TONE</h2>
+      <input type="text" id="inputName" class="hidden" />
 
-    <!-- Contact & Info Panel -->
-    <section class="profile-details">
-      <div class="info-column">
-        <p><strong>Email:</strong> duotone@gmail.com</p>
-        <p><strong>Phone:</strong> Private</p>
-        <p><strong>Organization:</strong> DUO:TONE</p>
-        <p><strong>Website:</strong> <a href="#">duotone.link</a></p>
-        <p><strong>Date Joined:</strong> Jun 2025</p>
-        <p><strong>Last Active:</strong> June 14, 2025</p>
-      </div>
-    </section>
+      <p class="handle" id="profileHandle">@duotone</p>
+      <input type="text" id="inputHandle" class="hidden" />
 
-    <!-- Management Buttons -->
-    <section class="profile-actions">
-      <button class="action-btn">Edit Profile</button>
-      <button class="action-btn">Change Password</button>
-      <a href="applications.html" class="action-btn">Manage Events</a>
-      <a href="login.html" class="logout-btn">Log Out</a>
-    </section>
+      <p class="role"> Role:
+        <span id="roleText">Organizer</span>
+        <select id="roleSelect" class="hidden">
+          <option value="Organizer">Organizer</option>
+          <option value="Artist">Artist</option>
+        </select>
+      </p>
+
+      <p class="location" id="profileLocation">Metro Manila, PH</p>
+      <input type="text" id="inputLocation" class="hidden" />
+    </div>
+  </section>
+
+
+  <!-- Contact & Info Panel -->
+  <section class="profile-details">
+    <div class="contactInfo">
+      <p><strong>Email:</strong>
+        <span id="profileEmail">duotone@gmail.com</span>
+        <input type="email" id="inputEmail" class="hidden" />
+      </p>
+      <p><strong>Phone:</strong>
+        <span id="profilePhone">Private</span>
+        <input type="text" id="inputPhone" class="hidden" />
+      </p>
+      <p><strong>Organization:</strong>
+        <span id="profileOrg">DUO:TONE</span>
+        <input type="text" id="inputOrg" class="hidden" />
+      </p>
+      <p><strong>Website:</strong>
+        <a href="#" id="profileWebsite">duotone.link</a>
+        <input type="text" id="inputWebsite" class="hidden" />
+      </p>
+      <p><strong>Date Joined:</strong> <span id="dateJoined">Jun 2025</span></p>
+      <p><strong>Last Active:</strong> <span id="lastActive">June 14, 2025</span></p>
+    </div>
+  </section>
+
+  <!-- Management Buttons -->
+  <section class="profile-actions">
+    <button class="action-btn" id="editBtn" onclick="editProfile()">Edit Profile</button>
+    <button class="action-btn hidden" id="saveBtn" onclick="saveProfile()">Save</button>
+    <button class="action-btn hidden" id="cancelBtn" onclick="cancelEdit()">Cancel</button>
+    <a href="applications.html" class="action-btn">Manage Events</a>
+    <a href="login.html" class="logout-btn">Log Out</a>
+  </section>
+
+  <!-- Confirmation Popup -->
+  <div class="popup-message" id="popupMessage">Profile updated successfully!</div>
   </main>
 
   <footer class="site-footer">
