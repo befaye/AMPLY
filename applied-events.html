@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Applications Status | AMPLY</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="user-stuff.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="container header-flex">
+      <div class="logo-nav-group">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="assets/white-transp-logo.png" alt="AMPLY Logo" class="logo-img"/>
+            <h1 class="logo">AMPLY</h1>
+          </a>
+        </div>
+        <nav class="main-nav">
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="events.html" class="nav-link">Events</a>
+        </nav>
+      </div>
+
+      <div class="profile-dropdown">
+        <img src="assets/blank-pfp.png" alt="User Avatar" class="avatar-icon" onclick="toggleDropdown()"/>
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="profile.html">Profile</a>
+          <a href="applied-events.html">My Events</a>
+          <a href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="applications-container container">
+    <h2 class="section-title">🎤 My Event Applications</h2>
+
+    <div class="app-status-grid">
+      <!-- Accepted Applications -->
+      <section class="app-status-block">
+        <h3 class="status-heading">✅ Accepted</h3>
+        <div id="accepted-list" class="application-section">
+          <!-- JS will populate accepted application cards here -->
+        </div>
+      </section>
+
+      <!-- Pending Applications -->
+      <section class="app-status-block">
+        <h3 class="status-heading">⏳ Pending</h3>
+        <div id="pending-list" class="application-section">
+          <!-- JS will populate pending application cards here -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 AMPLY. All rights reserved.
+  </footer>
+
+  <div class="popup-message" id="popupMessage"></div>
+
+  <script src="script.js"></script>
+  <script src="user-stuff.js"></script>
+</body>
+</html>

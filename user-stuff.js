@@ -270,3 +270,203 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// ARTIST USER PROFILE LOGIC (for artists-user-profile.html)
+let artistUserProfile = {
+  name: "Maya Dela Torre",
+  handle: "@mayalive",
+  role: "Artist",
+  location: "Pasig City, PH",
+  email: "maya.torresings@gmail.com",
+  phone: "0917-XXXXXXX",
+  organization: "Independent",
+  website: "youtube.com/mayalive",
+  profilePic: "assets/maya-pfp.png",
+  joinedDate: "May 2025",
+  lastActive: "June 14, 2025"
+};
+
+// Load from localStorage if available (specific key for artist users)
+if (localStorage.getItem("amplyArtistUser")) {
+  artistUserProfile = JSON.parse(localStorage.getItem("amplyArtistUser"));
+}
+
+function renderArtistProfile() {
+  // Reuse DOM logic similar to renderProfile but targeting artistUserProfile
+  document.querySelector(".profile-pic").src = artistUserProfile.profilePic;
+
+  document.querySelector(".profile-info").innerHTML = `
+    <h2 id="profileName">${artistUserProfile.name}</h2>
+    <input type="text" id="inputName" class="hidden" />
+
+    <p class="handle" id="profileHandle">${artistUserProfile.handle}</p>
+    <input type="text" id="inputHandle" class="hidden" />
+
+    <p class="role" id="profileRole">${artistUserProfile.role}</p>
+    <select id="inputRole" class="hidden">
+      <option value="Artist">Artist</option>
+      <option value="Organizer">Organizer</option>
+    </select>
+
+    <p class="location" id="profileLocation">${artistUserProfile.location}</p>
+    <input type="text" id="inputLocation" class="hidden" />
+  `;
+
+  document.getElementById("contactInfo").innerHTML = `
+    <p><strong>Email:</strong> <span id="profileEmail">${artistUserProfile.email}</span>
+      <input type="email" id="inputEmail" class="hidden" /></p>
+
+    <p><strong>Phone:</strong> <span id="profilePhone">${artistUserProfile.phone}</span>
+      <input type="text" id="inputPhone" class="hidden" /></p>
+
+    <p><strong>Organization:</strong> <span id="profileOrg">${artistUserProfile.organization}</span>
+      <input type="text" id="inputOrg" class="hidden" /></p>
+
+    <p><strong>Website:</strong> <a id="profileWebsite" href="#">${artistUserProfile.website}</a>
+      <input type="text" id="inputWebsite" class="hidden" /></p>
+
+    <p><strong>Date Joined:</strong> ${artistUserProfile.joinedDate}</p>
+    <p><strong>Last Active:</strong> ${artistUserProfile.lastActive}</p>
+
+    <div class="profile-edit-buttons">
+      <button id="editBtn" class="action-btn" onclick="editArtistProfile()">Edit Profile</button>
+      <button id="saveBtn" class="action-btn hidden" onclick="saveArtistProfile()">Save</button>
+      <button id="cancelBtn" class="action-btn hidden" onclick="cancelArtistEdit()">Cancel</button>
+    </div>
+  `;
+}
+
+// These are the artist-specific edit functions
+function editArtistProfile() {
+  ["inputEmail", "inputPhone", "inputOrg", "inputWebsite", "inputName", "inputRole", "inputLocation", "inputHandle"]
+    .forEach(id => document.getElementById(id).classList.remove("hidden"));
+  ["profileEmail", "profilePhone", "profileOrg", "profileWebsite", "profileName", "profileRole", "profileLocation", "profileHandle"]
+    .forEach(id => document.getElementById(id).style.display = "none");
+
+  document.getElementById("inputEmail").value = artistUserProfile.email;
+  document.getElementById("inputPhone").value = artistUserProfile.phone;
+  document.getElementById("inputOrg").value = artistUserProfile.organization;
+  document.getElementById("inputWebsite").value = artistUserProfile.website;
+  document.getElementById("inputName").value = artistUserProfile.name;
+  document.getElementById("inputRole").value = artistUserProfile.role;
+  document.getElementById("inputLocation").value = artistUserProfile.location;
+  document.getElementById("inputHandle").value = artistUserProfile.handle;
+
+  document.getElementById("saveBtn").classList.remove("hidden");
+  document.getElementById("cancelBtn").classList.remove("hidden");
+  document.getElementById("editBtn").classList.add("hidden");
+}
+
+function saveArtistProfile() {
+  artistUserProfile.email = document.getElementById("inputEmail").value;
+  artistUserProfile.phone = document.getElementById("inputPhone").value;
+  artistUserProfile.organization = document.getElementById("inputOrg").value;
+  artistUserProfile.website = document.getElementById("inputWebsite").value;
+  artistUserProfile.name = document.getElementById("inputName").value;
+  artistUserProfile.role = document.getElementById("inputRole").value;
+  artistUserProfile.location = document.getElementById("inputLocation").value;
+  artistUserProfile.handle = document.getElementById("inputHandle").value;
+
+  localStorage.setItem("amplyArtistUser", JSON.stringify(artistUserProfile));
+  showPopup("🎨 Artist profile updated!", "#ff8dc4");
+
+  renderArtistProfile();
+}
+
+function cancelArtistEdit() {
+  ["inputEmail", "inputPhone", "inputOrg", "inputWebsite", "inputName", "inputRole", "inputLocation", "inputHandle"]
+    .forEach(id => document.getElementById(id).classList.add("hidden"));
+  ["profileEmail", "profilePhone", "profileOrg", "profileWebsite", "profileName", "profileRole", "profileLocation", "profileHandle"]
+    .forEach(id => document.getElementById(id).style.display = id.includes("Name") || id.includes("Role") || id.includes("Location") ? "block" : "inline");
+
+  document.getElementById("saveBtn").classList.add("hidden");
+  document.getElementById("cancelBtn").classList.add("hidden");
+  document.getElementById("editBtn").classList.remove("hidden");
+}
+
+// Real event metadata
+const artistApplications = [
+  {
+    eventId: "bebets-paresan-and-karaoke-bar",
+    status: "pending",
+    organizer: "DUO:TONE",
+    date: "Weekly (Fridays and Saturdays)",
+  },
+  {
+    eventId: "kick-off-manila-music-fest-2025",
+    status: "accepted",
+    organizer: "PINTIG Org",
+    date: "2025-03-01",
+  },
+  {
+    eventId: "aurora-music-festival-clark-2025",
+    status: "accepted",
+    organizer: "Echolab Studios",
+    date: "2025-05-03/2025-05-04",
+  },
+  {
+    eventId: "malaya-music-fest-2025",
+    status: "pending",
+    organizer: "Alliance PH",
+    date: "2025-06-14/2025-06-15",
+  }
+];
+
+const eventData = [
+  {
+    id: "malaya-music-fest-2025",
+    name: "Malaya Music Fest 2025",
+    image: "events/malaya-mf.jpg"
+  },
+  {
+    id: "kick-off-manila-music-fest-2025",
+    name: "Kick Off Manila Music Fest 2025",
+    image: "events/kick-off-manila-mf.png"
+  },
+  {
+    id: "aurora-music-festival-clark-2025",
+    name: "Aurora Music Festival 2025",
+    image: "events/aurora-mf.jpg"
+  },
+  {
+    id: "bebets-paresan-and-karaoke-bar",
+    name: "BEBET's Paresan & Karaoke Bar",
+    image: "events/bebets.png"
+  }
+];
+
+const acceptedContainer = document.getElementById("accepted-list");
+const pendingContainer = document.getElementById("pending-list");
+
+function createApplicationCard(app, eventDetails) {
+  const card = document.createElement("div");
+  card.classList.add("application-card");
+
+  const statusMessage = app.status === "accepted"
+    ? "🎉 Congratulations! Your application has been accepted. Please check your email or socials to coordinate with the organizers."
+    : "📨 Your application has been submitted. Please wait for a response from the event organizers.";
+
+  card.innerHTML = `
+    <img src="${eventDetails.image}" class="application-img" alt="${eventDetails.name}"/>
+    <h4>${eventDetails.name}</h4>
+    <div class="application-info">
+      🏢 <strong>Organizer:</strong> ${app.organizer}<br/>
+      📆 <strong>Date:</strong> ${app.date}
+    </div>
+    <div class="message-box">${statusMessage}</div>
+  `;
+
+  return card;
+}
+
+artistApplications.forEach(app => {
+  const eventDetails = eventData.find(e => e.id === app.eventId);
+  if (!eventDetails) return;
+
+  const card = createApplicationCard(app, eventDetails);
+  if (app.status === "accepted") {
+    acceptedContainer.appendChild(card);
+  } else {
+    pendingContainer.appendChild(card);
+  }
+});

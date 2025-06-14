@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile | AMPLY</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="user-stuff.css"/>
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="logo-nav-group">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="assets/white-transp-logo.png" alt="AMPLY Logo" class="logo-img" />
+            <h1 class="logo">AMPLY</h1>
+          </a>
+        </div>
+        <nav class="main-nav">
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="events.html" class="nav-link">Events</a>
+        </nav>
+      </div>
+      <div class="profile-dropdown">
+        <img src="assets/blank-pfp.png" alt="User Avatar" class="avatar-icon" onclick="toggleDropdown()" />
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="profile.html">Profile</a>
+          <a href="applied-events.html">My Events</a>
+          <a href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="profile-main container">
+  <!-- Profile Header -->
+  <section class="profile-header">
+    <img src="assets/blank-pfp.png" alt="Profile Picture" class="profile-pic" />
+    <div class="profile-info">
+
+      <!-- Name -->
+      <h2 id="profileName">ARIA</h2>
+      <input type="text" id="inputName" class="hidden" value="ARIA"/>
+
+      <!-- Handle -->
+      <p class="handle" id="profileHandle">@aria</p>
+      <input type="text" id="inputHandle" class="hidden" value="aria"/>
+
+      <!-- Role -->
+      <p class="role">
+        Role: <span id="roleText">Artist</span>
+      </p>
+      <select id="roleSelect" class="hidden">
+        <option value="Organizer">Organizer</option>
+        <option value="Artist" selected>Artist</option>
+      </select>
+
+      <!-- Location -->
+      <p class="location" id="profileLocation">Cebu City, PH</p>
+     <input type="text" id="inputLocation" class="hidden" value="Cebu City, PH"/>
+
+    </div>
+  </section>
+
+  <!-- Contact & Info Panel -->
+  <section class="profile-details">
+    <div class="contactInfo">
+
+      <!-- Email -->
+      <p><strong>Email:</strong>
+        <span id="profileEmail">aria.music@gmail.com</span>
+      </p>
+      <input type="email" id="inputEmail" class="hidden" value="aria.music@gmail.com" />
+
+      <!-- Phone -->
+      <p><strong>Phone:</strong>
+        <span id="profilePhone">Private</span>
+      </p>
+      <input type="text" id="inputPhone" class="hidden" value="Private"/>
+
+      <!-- Genre -->
+      <p><strong>Genre:</strong>
+        <span id="profileOrg">Indie Pop</span>
+      </p>
+      <input type="text" id="inputOrg" class="hidden" value="Indie Pop" />
+
+      <!-- Website -->
+      <p><strong>Website:</strong>
+        <a href="#" id="profileWebsite">aria.link</a>
+      </p>
+      <input type="text" id="inputWebsite" class="hidden" value="aria.link"/>
+
+      <!-- Static Info -->
+      <p><strong>Date Joined:</strong> <span id="dateJoined">Jun 2025</span></p>
+      <p><strong>Last Active:</strong> <span id="lastActive">June 14, 2025</span></p>
+    </div>
+  </section>
+
+  <!-- Management Buttons -->
+  <section class="profile-actions">
+    <button class="action-btn" id="editBtn" onclick="editProfile()">Edit Profile</button>
+    <button class="action-btn hidden" id="saveBtn" onclick="saveProfile()">Save</button>
+    <button class="action-btn hidden" id="cancelBtn" onclick="cancelEdit()">Cancel</button>
+    <a href="applied-events.html" class="action-btn">My Applications</a>
+    <a href="login.html" class="logout-btn">Log Out</a>
+  </section>
+
+  <!-- Confirmation Popup -->
+  <div class="popup-message" id="popupMessage">Profile updated successfully!</div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 AMPLY. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="user-stuff.js"></script>
+  
+</body>
+</html>
