@@ -1,5 +1,5 @@
 /*==============================
-  base -manol
+  Base
 ==============================*/
 body {
   margin: 0;
@@ -14,14 +14,16 @@ html {
 }
 
 /*==============================
-  header ba -manol
+  Header
 ==============================*/
 header {
   background-color: #2d3436;
   color: #fff;
   position: sticky;
+  position: flex;
   top: 0;
-  z-index: 10;
+  width: 100%;
+  z-index: 1000;
   padding: 0.5em 0; 
 }
 
@@ -33,6 +35,7 @@ header .container {
   padding: 0 2em;
   margin: 0 auto;
   width: 100%;
+  height: 90px;
 }
 
 .logo-container {
@@ -83,7 +86,7 @@ header .container {
 }
 
 /*==============================
-  auth buttons -manol
+  Auth Buttons
 ==============================*/
 .auth-buttons {
   display: flex;
@@ -123,7 +126,7 @@ header .container {
 }
 
 /*==============================
-  blank pfp -manol
+  Profile Picture
 ==============================*/
 .profile-dropdown {
   position: relative;
@@ -193,11 +196,11 @@ header .container {
 }
 
 /*==============================
-  hero siksyon -manol
+  Hero Section
 ==============================*/
 .hero {
   position: relative;
-  background: url('backgrounds/main-page-background.png') center / cover no-repeat;
+  background: url('backgrounds/main-page-bg.png') center / cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,7 +240,7 @@ header .container {
 }
 
 /*==============================
-  atits and ibents -manol
+  Artists and Events
 ==============================*/
 .section-artists,
 .section-events {
@@ -312,7 +315,7 @@ header .container {
 }
 
 /*==============================
-  abawt & pawnders -manol
+  About Us
 ==============================*/
 .section-about {
   background-color: #242323; 
@@ -362,7 +365,7 @@ header .container {
 }
 
 /*==============================
-  mga dutdutin -manol
+  Buttons
 ==============================*/
 .btn-artist,
 .btn-event {
@@ -402,7 +405,7 @@ header .container {
 }
 
 /*==============================
-  phuter -manol
+  Footer
 ==============================*/
 .site-footer {
   background-color: #2d3436;
@@ -414,7 +417,7 @@ header .container {
 }
 
 /*==============================
-  forda galaw ng desayn -manol
+  Animations
 ==============================*/
 @media (max-width: 900px) {
   header .container {
@@ -487,7 +490,7 @@ header .container {
 }
 
 /*==============================
-Artist Cards -bea
+  Artist Cards
 ==============================*/
 .main-content {
   padding-top: 3rem;
@@ -611,7 +614,7 @@ body.artists-page {
 }
 
 /*==============================
-  ibints kard - manol
+  Event Cards
 ==============================*/
 .main-content {
   padding: 3rem 20px;
@@ -755,7 +758,7 @@ body.events-page {
 }
 
 /*====================================
-  artists profile template - manol
+  Artist Profiles
 ====================================*/
 
 .artist-profile-page {
@@ -984,7 +987,7 @@ body.events-page {
 }
 
 /*====================================
-event application stuff -bea
+  Event Application
 ====================================*/
 
 .event-application-page {
@@ -1058,6 +1061,7 @@ event application stuff -bea
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 8px;
   transition: border-color 0.3s ease, background-color 0.3s ease;
+  resize: none;
 }
 
 .application-form input:focus,
