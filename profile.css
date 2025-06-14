@@ -1,5 +1,5 @@
 /*==============================
-  dummy account page -manol
+  Account Profile 
 ==============================*/
 .hidden {
   display: none !important;
@@ -7,7 +7,7 @@
 
 body {
   position: relative;
-  background: url('backgrounds/main-page-background.png') no-repeat center center fixed;
+  background: url('backgrounds/main-page-bg.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -272,7 +272,7 @@ body::before {
 }
 
 /*==============================
-  event management -manol
+  Event Management
 ==============================*/
 .applications-container {
   padding: 3rem 1.5rem;

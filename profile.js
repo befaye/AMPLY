@@ -28,7 +28,6 @@ function showPopup(message, color = '#8b73ff') {
   }, 2500);
 }
 
-
 // USER PROFILE LOGIC 
 let userProfile = {
   name: "DUO:TONE",
@@ -37,7 +36,7 @@ let userProfile = {
   location: "Manila, PH",
   email: "duotone@gmail.com",
   phone: "Private",
-  organization: "DUO:TONE",
+  organization: "Amply",
   website: "duotone.link",
   profilePic: "assets/blank-pfp.png",
   joinedDate: "Jun 2025",
