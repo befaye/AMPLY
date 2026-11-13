@@ -416,6 +416,14 @@ header .container {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.academic-project-notice {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  color: #c4c8ca;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
 /*==============================
   Animations
 ==============================*/
