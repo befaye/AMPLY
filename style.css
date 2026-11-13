@@ -20,7 +20,6 @@ header {
   background-color: #2d3436;
   color: #fff;
   position: sticky;
-  position: flex;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -1135,4 +1134,157 @@ body.events-page {
     0 4px 10px rgba(0, 0, 0, 0.5),
     0 6px 16px rgba(139, 115, 255, 0.25);
   transform: translateY(-2px) scale(1.03);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  header .header-flex {
+    height: auto;
+    min-height: 76px;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    padding-block: 0.5rem;
+  }
+
+  .logo-nav-group {
+    min-width: 0;
+    gap: 0.75rem;
+  }
+
+  .section-artists,
+  .section-events {
+    min-height: 0;
+  }
+
+  .section-artists .content,
+  .section-events .content {
+    padding: clamp(1.5rem, 6vw, 3rem) clamp(1rem, 5vw, 2rem);
+  }
+
+  .section-artists .image-box,
+  .section-events .image-box {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .section-artists .image-box img,
+  .section-events .image-box img {
+    height: 100%;
+  }
+
+  .section-about {
+    padding: clamp(3rem, 10vw, 6rem) 1rem;
+  }
+
+  .section-artists h2,
+  .section-events h2,
+  .section-about h2 {
+    font-size: clamp(1.7rem, 7vw, 2.5rem);
+  }
+
+  .section-artists p,
+  .section-events p,
+  .section-about p {
+    font-size: clamp(1rem, 3.8vw, 1.15rem);
+  }
+
+  .application-form-container {
+    width: calc(100% - 2rem);
+    margin: 1.5rem auto;
+    padding: clamp(1.25rem, 5vw, 2.75rem);
+  }
+
+  .profile-details {
+    padding: clamp(1rem, 4vw, 2rem);
+  }
+
+  .highlight-video iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 520px) {
+  header .header-flex {
+    align-items: flex-start;
+  }
+
+  .logo-nav-group {
+    flex: 1 1 100%;
+    justify-content: space-between;
+    gap: 0.25rem;
+  }
+
+  .logo-img {
+    height: 42px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .main-nav {
+    gap: 0;
+  }
+
+  .nav-link {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .auth-buttons {
+    gap: 0.5rem;
+    margin-left: auto;
+  }
+
+  .auth-buttons button {
+    margin-left: 0;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .profile-dropdown {
+    margin: 0 0 0 auto;
+  }
+
+  .event-grid,
+  .artist-grid {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 0.75rem;
+  }
+
+  .event-section-title,
+  .artist-section-title {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+  }
+
+  .artist-profile-page .profile-pfp {
+    width: clamp(120px, 35vw, 180px);
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .artist-profile-page .profile-basic-info h2 {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+    overflow-wrap: anywhere;
+  }
+
+  .artist-back-btn,
+  .back-btn {
+    margin: 1rem;
+  }
 }

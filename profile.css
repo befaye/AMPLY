@@ -471,3 +471,28 @@ body::before {
   border-radius: 4px;
   font-size: 0.9rem;
 }
+
+@media (max-width: 640px) {
+  .profile-main,
+  .applications-container {
+    width: calc(100% - 2rem);
+    margin: 1.5rem auto;
+    padding: 1.25rem;
+  }
+
+  .profile-header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .app-status-block {
+    flex-basis: 100%;
+    min-width: 0;
+  }
+
+  .application-actions {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
